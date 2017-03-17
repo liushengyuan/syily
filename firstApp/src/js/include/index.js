@@ -1,0 +1,1 @@
+define(["welIdx","wechatIdx"], function(){});

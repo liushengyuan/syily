@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <title>BP</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- ===================Load CSS=================================== -->
+    <!-- 压缩使用 -->
+    <!-- <link rel="stylesheet" href="css/main.min.css">    -->
+    <!-- 运行使用 -->
+    <link rel="stylesheet" href="csslib/main.min.css">
+  </head>
+
+  <body onselectstart="return false;" unselectable="on">
+    <!-- 模板加载元素 -->
+    <!--若ios应用，需要追加样式ui-view-ios -->
+    <div ui-view class="ui-view-style"></div>
+    <!-- 只有确认弹窗元素 -->
+    <compop></compop>
+    <!-- 有确认和取消弹窗元素 -->
+    <compopsure></compopsure>  
+    <!-- 加载等待元素 -->
+    <!-- <wait-rpc></wait-rpc>  -->
+    <!-- 密码弹窗元素 -->
+    <!-- <grid-password is-show="gridPassword.showInput"></grid-password> -->
+    <!-- ===================Load Javascript============================ -->
+    <!-- 压缩使用 -->
+    <!-- <script data-main="js/main.min.js" src="js/require.min.js"></script> -->
+    <!-- 运行使用 -->
+	<script data-main="./js/main.js" src="public/js/requirejs/require.js"></script>
+    <!-- <script src="cordova.js"></script> -->
+  </body>
+</html>

@@ -1,0 +1,3268 @@
+[
+  {
+  	"INN": 103000,
+  	"length": 19,
+  	"bankName": "农业银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 185720,
+  	"length": 16,
+  	"bankName": "昆明农联社",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 356827,
+  	"length": 16,
+  	"bankName": "上海银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 356828,
+  	"length": 16,
+  	"bankName": "上海银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 356833,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 356835,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 356837,
+  	"length": 16,
+  	"bankName": "光大银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 356838,
+  	"length": 16,
+  	"bankName": "光大银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 356839,
+  	"length": 16,
+  	"bankName": "光大银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 356840,
+  	"length": 16,
+  	"bankName": "光大银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 356885,
+  	"length": 16,
+  	"bankName": "招商银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 356886,
+  	"length": 16,
+  	"bankName": "招商银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 356887,
+  	"length": 16,
+  	"bankName": "招商银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 356888,
+  	"length": 16,
+  	"bankName": "招商银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 356889,
+  	"length": 16,
+  	"bankName": "招商银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 356890,
+  	"length": 16,
+  	"bankName": "招商银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 370246,
+  	"length": 15,
+  	"bankName": "工商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 370247,
+  	"length": 15,
+  	"bankName": "工商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 370248,
+  	"length": 15,
+  	"bankName": "工商银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 370249,
+  	"length": 15,
+  	"bankName": "工商银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 400360,
+  	"length": 16,
+  	"bankName": "中信银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 400937,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 400938,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 400939,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 400940,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 400941,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 400942,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 402658,
+  	"length": 16,
+  	"bankName": "招商银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 402673,
+  	"length": 16,
+  	"bankName": "上海银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 402791,
+  	"length": 16,
+  	"bankName": "工商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 403361,
+  	"length": 16,
+  	"bankName": "农业银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 403391,
+  	"length": 16,
+  	"bankName": "中信银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 404117,
+  	"length": 16,
+  	"bankName": "农业银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 404157,
+  	"length": 16,
+  	"bankName": "中信银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 404171,
+  	"length": 16,
+  	"bankName": "中信银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 404172,
+  	"length": 16,
+  	"bankName": "中信银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 404173,
+  	"length": 16,
+  	"bankName": "中信银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 404174,
+  	"length": 16,
+  	"bankName": "中信银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 404738,
+  	"length": 16,
+  	"bankName": "浦发银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 404739,
+  	"length": 16,
+  	"bankName": "浦发银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 405512,
+  	"length": 17,
+  	"bankName": "交通银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 406252,
+  	"length": 16,
+  	"bankName": "光大银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 406254,
+  	"length": 16,
+  	"bankName": "光大银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 406365,
+  	"length": 16,
+  	"bankName": "广发银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 407405,
+  	"length": 16,
+  	"bankName": "民生银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 409665,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 409666,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 409667,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 409668,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 409669,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 409670,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 409671,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 409672,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 410062,
+  	"length": 16,
+  	"bankName": "招商银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 412962,
+  	"length": 16,
+  	"bankName": "深发银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 415599,
+  	"length": 16,
+  	"bankName": "民生银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 421317,
+  	"length": 16,
+  	"bankName": "北京银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 421349,
+  	"length": 16,
+  	"bankName": "建设银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 421393,
+  	"length": 16,
+  	"bankName": "民生银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 421437,
+  	"length": 16,
+  	"bankName": "中信银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 421865,
+  	"length": 16,
+  	"bankName": "民生银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 421869,
+  	"length": 16,
+  	"bankName": "民生银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 421870,
+  	"length": 16,
+  	"bankName": "民生银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 421871,
+  	"length": 16,
+  	"bankName": "民生银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 422160,
+  	"length": 16,
+  	"bankName": "北京银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 422161,
+  	"length": 16,
+  	"bankName": "北京银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 424106,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "准贷记卡"
+  },{
+  	"INN": 424107,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "准贷记卡"
+  },{
+  	"INN": 424108,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "准贷记卡"
+  },{
+  	"INN": 424109,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "准贷记卡"
+  },{
+  	"INN": 424110,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "准贷记卡"
+  },{
+  	"INN": 424111,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "准贷记卡"
+  },{
+  	"INN": 424902,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 425862,
+  	"length": 16,
+  	"bankName": "光大银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 427010,
+  	"length": 16,
+  	"bankName": "工商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 427018,
+  	"length": 16,
+  	"bankName": "工商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 427019,
+  	"length": 16,
+  	"bankName": "工商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 427020,
+  	"length": 16,
+  	"bankName": "工商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 427028,
+  	"length": 16,
+  	"bankName": "工商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 427029,
+  	"length": 16,
+  	"bankName": "工商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 427038,
+  	"length": 16,
+  	"bankName": "工商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 427039,
+  	"length": 16,
+  	"bankName": "工商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 427062,
+  	"length": 16,
+  	"bankName": "工商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 427064,
+  	"length": 16,
+  	"bankName": "工商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 427570,
+  	"length": 16,
+  	"bankName": "民生银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 427571,
+  	"length": 16,
+  	"bankName": "民生银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 428911,
+  	"length": 16,
+  	"bankName": "广发银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 431502,
+  	"length": 16,
+  	"bankName": "华夏银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 433666,
+  	"length": 16,
+  	"bankName": "中信银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 433670,
+  	"length": 16,
+  	"bankName": "中信银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 433680,
+  	"length": 16,
+  	"bankName": "中信银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 434061,
+  	"length": 16,
+  	"bankName": "建设银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 434062,
+  	"length": 16,
+  	"bankName": "建设银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 435744,
+  	"length": 16,
+  	"bankName": "深发银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 435745,
+  	"length": 16,
+  	"bankName": "深发银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 436718,
+  	"length": 16,
+  	"bankName": "建设银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 436728,
+  	"length": 16,
+  	"bankName": "建设银行",
+  	"cardType": "准贷记卡"
+  },{
+  	"INN": 436738,
+  	"length": 16,
+  	"bankName": "建设银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 436742,
+  	"length": 16,
+  	"bankName": "建设银行",
+  	"cardType": "储蓄卡"
+  },{
+  	"INN": 436745,
+  	"length": 16,
+  	"bankName": "建设银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 436748,
+  	"length": 16,
+  	"bankName": "建设银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 436768,
+  	"length": 16,
+  	"bankName": "广发银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 438088,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 438125,
+  	"length": 16,
+  	"bankName": "工商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 438126,
+  	"length": 16,
+  	"bankName": "工商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 438588,
+  	"length": 18,
+  	"bankName": "兴业银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 438589,
+  	"length": 18,
+  	"bankName": "兴业银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 438600,
+  	"length": 16,
+  	"bankName": "上海银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 439188,
+  	"length": 16,
+  	"bankName": "招商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 439225,
+  	"length": 16,
+  	"bankName": "招商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 439227,
+  	"length": 16,
+  	"bankName": "招商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 442729,
+  	"length": 16,
+  	"bankName": "中信银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 442730,
+  	"length": 16,
+  	"bankName": "中信银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 451289,
+  	"length": 16,
+  	"bankName": "兴业银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 451291,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 451804,
+  	"length": 16,
+  	"bankName": "工商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 451810,
+  	"length": 16,
+  	"bankName": "工商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 453242,
+  	"length": 16,
+  	"bankName": "建设银行",
+  	"cardType": "准贷记卡"
+  },{
+  	"INN": 456351,
+  	"length": 19,
+  	"bankName": "中国银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 456418,
+  	"length": 16,
+  	"bankName": "浦发银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 458060,
+  	"length": 16,
+  	"bankName": "工商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 458071,
+  	"length": 16,
+  	"bankName": "工商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 458123,
+  	"length": 16,
+  	"bankName": "交通银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 458124,
+  	"length": 16,
+  	"bankName": "交通银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 468203,
+  	"length": 16,
+  	"bankName": "招商银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 472067,
+  	"length": 16,
+  	"bankName": "民生银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 472068,
+  	"length": 16,
+  	"bankName": "民生银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 479228,
+  	"length": 16,
+  	"bankName": "招商银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 479229,
+  	"length": 16,
+  	"bankName": "招商银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 481699,
+  	"length": 16,
+  	"bankName": "光大银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 486466,
+  	"length": 16,
+  	"bankName": "上海银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 486493,
+  	"length": 16,
+  	"bankName": "兴业银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 486494,
+  	"length": 16,
+  	"bankName": "兴业银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 486497,
+  	"length": 16,
+  	"bankName": "光大银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 487013,
+  	"length": 16,
+  	"bankName": "广发银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 489592,
+  	"length": 16,
+  	"bankName": "建行银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 489734,
+  	"length": 16,
+  	"bankName": "工商银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 489735,
+  	"length": 16,
+  	"bankName": "工商银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 489736,
+  	"length": 16,
+  	"bankName": "工商银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 491020,
+  	"length": 16,
+  	"bankName": "农业银行",
+  	"cardType": "准贷记卡"
+  },{
+  	"INN": 491031,
+  	"length": 16,
+  	"bankName": "建设银行",
+  	"cardType": "准贷记卡"
+  },{
+  	"INN": 491032,
+  	"length": 16,
+  	"bankName": "广发银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 491040,
+  	"length": 16,
+  	"bankName": "交通银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 493427,
+  	"length": 16,
+  	"bankName": "广发银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 493878,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 498451,
+  	"length": 16,
+  	"bankName": "浦发银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 504923,
+  	"length": 16,
+  	"bankName": "常州商行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 510529,
+  	"length": 16,
+  	"bankName": "工商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 512315,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 512316,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 512411,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 512412,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 512425,
+  	"length": 16,
+  	"bankName": "招商银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 512431,
+  	"length": 16,
+  	"bankName": "宁波商行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 512466,
+  	"length": 16,
+  	"bankName": "民生银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 512695,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 512732,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 514906,
+  	"length": 16,
+  	"bankName": "中信银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 514957,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 514958,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 517636,
+  	"length": 16,
+  	"bankName": "民生银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 518212,
+  	"length": 16,
+  	"bankName": "中信银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 518364,
+  	"length": 16,
+  	"bankName": "广发银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 518378,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "准贷记卡"
+  },{
+  	"INN": 518379,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "准贷记卡"
+  },{
+  	"INN": 518474,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "准贷记卡"
+  },{
+  	"INN": 518475,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "准贷记卡"
+  },{
+  	"INN": 518476,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "准贷记卡"
+  },{
+  	"INN": 518710,
+  	"length": 16,
+  	"bankName": "招商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 518718,
+  	"length": 16,
+  	"bankName": "招商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 519412,
+  	"length": 16,
+  	"bankName": "农业银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 519498,
+  	"length": 16,
+  	"bankName": "上海银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 520082,
+  	"length": 16,
+  	"bankName": "农业银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 520108,
+  	"length": 16,
+  	"bankName": "中信银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 520131,
+  	"length": 16,
+  	"bankName": "上海银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 520152,
+  	"length": 16,
+  	"bankName": "广发银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 520169,
+  	"length": 16,
+  	"bankName": "交通银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 520194,
+  	"length": 16,
+  	"bankName": "宁波商行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 520382,
+  	"length": 16,
+  	"bankName": "广发银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 521899,
+  	"length": 16,
+  	"bankName": "交通银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 522153,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 523036,
+  	"length": 16,
+  	"bankName": "兴业银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 524011,
+  	"length": 16,
+  	"bankName": "招商银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 524047,
+  	"length": 16,
+  	"bankName": "工商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 524070,
+  	"length": 16,
+  	"bankName": "兴业银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 524091,
+  	"length": 16,
+  	"bankName": "工商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 524094,
+  	"length": 16,
+  	"bankName": "建设银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 524864,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "准贷记卡"
+  },{
+  	"INN": 524865,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "准贷记卡"
+  },{
+  	"INN": 525498,
+  	"length": 16,
+  	"bankName": "工商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 525745,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "准贷记卡"
+  },{
+  	"INN": 525746,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "准贷记卡"
+  },{
+  	"INN": 526410,
+  	"length": 16,
+  	"bankName": "建设银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 526855,
+  	"length": 16,
+  	"bankName": "深圳商行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 527414,
+  	"length": 16,
+  	"bankName": "兴业银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 528020,
+  	"length": 16,
+  	"bankName": "深圳商行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 528931,
+  	"length": 16,
+  	"bankName": "广发银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 528948,
+  	"length": 16,
+  	"bankName": "民生银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 530970,
+  	"length": 16,
+  	"bankName": "工商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 530980,
+  	"length": 16,
+  	"bankName": "工商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 530990,
+  	"length": 16,
+  	"bankName": "工商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 532420,
+  	"length": 16,
+  	"bankName": "建设银行",
+  	"cardType": "准贷记卡"
+  },{
+  	"INN": 532430,
+  	"length": 16,
+  	"bankName": "建设银行",
+  	"cardType": "准贷记卡"
+  },{
+  	"INN": 532450,
+  	"length": 16,
+  	"bankName": "建设银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 532458,
+  	"length": 16,
+  	"bankName": "建设银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 535910,
+  	"length": 16,
+  	"bankName": "农业银行",
+  	"cardType": "准贷记卡"
+  },{
+  	"INN": 537830,
+  	"length": 16,
+  	"bankName": "交通银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 540297,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 540838,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 541068,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 541709,
+  	"length": 16,
+  	"bankName": "广发银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 543159,
+  	"length": 16,
+  	"bankName": "光大银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 544033,
+  	"length": 16,
+  	"bankName": "建设银行",
+  	"cardType": "准贷记卡"
+  },{
+  	"INN": 545619,
+  	"length": 16,
+  	"bankName": "招商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 545623,
+  	"length": 16,
+  	"bankName": "招商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 545947,
+  	"length": 16,
+  	"bankName": "招商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 547628,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 547648,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 547766,
+  	"length": 16,
+  	"bankName": "中国银行",
+  	"cardType": "准贷记卡"
+  },{
+  	"INN": 548259,
+  	"length": 16,
+  	"bankName": "工商银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 548844,
+  	"length": 16,
+  	"bankName": "广发银行",
+  	"cardType": "信用卡"
+  },{
+  	"INN": 552245,
+  	"length": 16,
+  	"bankName": "建设银行",
+  	"cardType": "借记卡"
+  },{
+  	"INN": 552288,
+  	"length": 16,
+  	"bankName": "民生银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 552534,
+  	"length": 16,
+  	"bankName": "招商银行",
+  	"cardType": "贷记卡"
+  },{
+  	"INN": 552587,
+  	"length": 16,
+  	"bankName": "招商银行",
+  	"cardType": "贷记卡"
+  },{
+    "INN": 552599,
+    "length": 16,
+    "bankName": "农业银行",
+    "cardType": "信用卡"
+  },{
+    "INN": 552742,
+    "length": 16,
+    "bankName": "中国银行",
+    "cardType": "双币贷记卡"
+  },{
+    "INN": 552794,
+    "length": 16,
+    "bankName": "广发银行",
+    "cardType": "信用卡"
+  },{
+    "INN": 552801,
+    "length": 16,
+    "bankName": "建设银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 552853,
+    "length": 16,
+    "bankName": "交通银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 553131,
+    "length": 16,
+    "bankName": "中国银行",
+    "cardType": "双币贷记卡"
+  },{
+    "INN": 553242,
+    "length": 18,
+    "bankName": "建设银行",
+    "cardType": "信用卡"
+  },{
+    "INN": 556610,
+    "length": 16,
+    "bankName": "民生银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 556617,
+    "length": 16,
+    "bankName": "中信银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 558360,
+    "length": 16,
+    "bankName": "工商银行",
+    "cardType": "信用卡"
+  },{
+    "INN": 558730,
+    "length": 16,
+    "bankName": "农业银行",
+    "cardType": "信用卡"
+  },{
+    "INN": 558808,
+    "length": 16,
+    "bankName": "中国银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 558809,
+    "length": 16,
+    "bankName": "中国银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 558868,
+    "length": 16,
+    "bankName": "中国银行",
+    "cardType": "准贷记卡"
+  },{
+    "INN": 558894,
+    "length": 16,
+    "bankName": "广发银行",
+    "cardType": "信用卡"
+  },{
+    "INN": 558895,
+    "length": 16,
+    "bankName": "建设银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 558916,
+    "length": 16,
+    "bankName": "中信银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 566666,
+    "length": 18,
+    "bankName": "沈阳商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 584016,
+    "length": 16,
+    "bankName": "深圳农联社",
+    "cardType": "借记卡"
+  },{
+    "INN": 601100,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601101,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601121,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601122,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601123,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601124,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601125,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601126,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601127,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601128,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601131,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601136,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601137,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601138,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601140,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601142,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601143,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601144,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601145,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601146,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601147,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601148,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601149,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601174,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601177,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601178,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601179,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601186,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601187,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601188,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601189,
+    "length": 16,
+    "bankName": "D.F.S.I",
+    "cardType": "贷记卡"
+  },{
+    "INN": 601382,
+    "length": 19,
+    "bankName": "中国银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 601428,
+    "length": 17,
+    "bankName": "交通银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 602907,
+    "length": 16,
+    "bankName": "深圳商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 602969,
+    "length": 16,
+    "bankName": "北京银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 603128,
+    "length": 16,
+    "bankName": "南京商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 603367,
+    "length": 18,
+    "bankName": "杭州商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 603445,
+    "length": 19,
+    "bankName": "广州商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 603506,
+    "length": 19,
+    "bankName": "苏州商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 603601,
+    "length": 17,
+    "bankName": "徽商银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 603602,
+    "length": 18,
+    "bankName": "绍兴商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 603694,
+    "length": 19,
+    "bankName": "常熟农商",
+    "cardType": "借记卡"
+  },{
+    "INN": 603708,
+    "length": 17,
+    "bankName": "大连商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 621977,
+    "length": 16,
+    "bankName": "温州商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622126,
+    "length": 18,
+    "bankName": "阜新商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622127,
+    "length": 19,
+    "bankName": "福建农联社(厦门农信社)",
+    "cardType": "借记卡"
+  },{
+    "INN": 622128,
+    "length": 16,
+    "bankName": "深圳农信社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622129,
+    "length": 16,
+    "bankName": "深圳农联社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622131,
+    "length": 19,
+    "bankName": "淮安商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622132,
+    "length": 16,
+    "bankName": "嘉兴商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622133,
+    "length": 19,
+    "bankName": "贵阳商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622134,
+    "length": 16,
+    "bankName": "重庆商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622135,
+    "length": 19,
+    "bankName": "成都商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622136,
+    "length": 18,
+    "bankName": "西安商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622137,
+    "length": 17,
+    "bankName": "徽商银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622138,
+    "length": 19,
+    "bankName": "北京农联社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622139,
+    "length": 16,
+    "bankName": "兰州商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622140,
+    "length": 16,
+    "bankName": "廊坊商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622141,
+    "length": 16,
+    "bankName": "泰隆信用社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622143,
+    "length": 19,
+    "bankName": "乌鲁木齐商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622146,
+    "length": 16,
+    "bankName": "青岛商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622147,
+    "length": 19,
+    "bankName": "呼市商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622148,
+    "length": 16,
+    "bankName": "上海银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622149,
+    "length": 16,
+    "bankName": "上海银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622150,
+    "length": 19,
+    "bankName": "邮政银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622151,
+    "length": 19,
+    "bankName": "邮政银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622152,
+    "length": 19,
+    "bankName": "成都商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622153,
+    "length": 19,
+    "bankName": "成都商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622154,
+    "length": 19,
+    "bankName": "成都商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622155,
+    "length": 16,
+    "bankName": "深圳商行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622156,
+    "length": 16,
+    "bankName": "深圳商行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622165,
+    "length": 16,
+    "bankName": "包头商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622166,
+    "length": 16,
+    "bankName": "建设银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622168,
+    "length": 16,
+    "bankName": "建设银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622169,
+    "length": 19,
+    "bankName": "湖南农联社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622178,
+    "length": 16,
+    "bankName": "吉林商行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622179,
+    "length": 16,
+    "bankName": "吉林商行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622184,
+    "length": 19,
+    "bankName": "福建农联社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622188,
+    "length": 19,
+    "bankName": "邮政银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622199,
+    "length": 19,
+    "bankName": "邮政银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622200,
+    "length": 19,
+    "bankName": "工商银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622202,
+    "length": 19,
+    "bankName": "工商银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622203,
+    "length": 19,
+    "bankName": "工商银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622208,
+    "length": 19,
+    "bankName": "工商银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622210,
+    "length": 16,
+    "bankName": "工商银行",
+    "cardType": "准贷记卡"
+  },{
+    "INN": 622211,
+    "length": 16,
+    "bankName": "工商银行",
+    "cardType": "准贷记卡"
+  },{
+    "INN": 622212,
+    "length": 16,
+    "bankName": "工商银行",
+    "cardType": "准贷记卡"
+  },{
+    "INN": 622213,
+    "length": 16,
+    "bankName": "工商银行",
+    "cardType": "准贷记卡"
+  },{
+    "INN": 622214,
+    "length": 16,
+    "bankName": "工商银行",
+    "cardType": "准贷记卡"
+  },{
+    "INN": 622215,
+    "length": 16,
+    "bankName": "工商银行",
+    "cardType": "准贷记卡"
+  },{
+    "INN": 622220,
+    "length": 16,
+    "bankName": "工商银行",
+    "cardType": "准贷记卡"
+  },{
+    "INN": 622225,
+    "length": 16,
+    "bankName": "工商银行",
+    "cardType": "准贷记卡"
+  },{
+    "INN": 622230,
+    "length": 16,
+    "bankName": "工商银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622235,
+    "length": 16,
+    "bankName": "工商银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622240,
+    "length": 16,
+    "bankName": "工商银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622245,
+    "length": 16,
+    "bankName": "工商银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622250,
+    "length": 16,
+    "bankName": "交通银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622251,
+    "length": 16,
+    "bankName": "交通银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622252,
+    "length": 16,
+    "bankName": "交通银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622253,
+    "length": 16,
+    "bankName": "交通银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622254,
+    "length": 16,
+    "bankName": "交通银行",
+    "cardType": "准贷记卡"
+  },{
+    "INN": 622258,
+    "length": 17,
+    "bankName": "交通银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622258,
+    "length": 17,
+    "bankName": "交通银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622259,
+    "length": 17,
+    "bankName": "交通银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622260,
+    "length": 19,
+    "bankName": "交通银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622261,
+    "length": 19,
+    "bankName": "交通银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622280,
+    "length": 19,
+    "bankName": "建设银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622291,
+    "length": 18,
+    "bankName": "柳州商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622292,
+    "length": 18,
+    "bankName": "柳州商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622301,
+    "length": 19,
+    "bankName": "湖州商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622301,
+    "length": 19,
+    "bankName": "湖州商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622302,
+    "length": 16,
+    "bankName": "佛山农联社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622303,
+    "length": 16,
+    "bankName": "南京商行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622305,
+    "length": 16,
+    "bankName": "南京商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622307,
+    "length": 19,
+    "bankName": "九江商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622308,
+    "length": 17,
+    "bankName": "昆明商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622310,
+    "length": 17,
+    "bankName": "西宁商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622311,
+    "length": 17,
+    "bankName": "淄博商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622312,
+    "length": 16,
+    "bankName": "徐州农联社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622316,
+    "length": 16,
+    "bankName": "宁波商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622318,
+    "length": 16,
+    "bankName": "宁波商行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622319,
+    "length": 16,
+    "bankName": "山东农联社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622321,
+    "length": 16,
+    "bankName": "台州商行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622322,
+    "length": 16,
+    "bankName": "顺德农信社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622323,
+    "length": 19,
+    "bankName": "常熟农商",
+    "cardType": "借记卡"
+  },{
+    "INN": 622324,
+    "length": 19,
+    "bankName": "江苏农信",
+    "cardType": "借记卡"
+  },{
+    "INN": 622325,
+    "length": 16,
+    "bankName": "武汉商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622327,
+    "length": 17,
+    "bankName": "徽商银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622328,
+    "length": 19,
+    "bankName": "东莞农信社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622329,
+    "length": 19,
+    "bankName": "天津农信社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622331,
+    "length": 18,
+    "bankName": "天津商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622332,
+    "length": 17,
+    "bankName": "张家港农商",
+    "cardType": "借记卡"
+  },{
+    "INN": 622333,
+    "length": 16,
+    "bankName": "东莞商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622335,
+    "length": 16,
+    "bankName": "南宁商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622336,
+    "length": 17,
+    "bankName": "包头商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622337,
+    "length": 16,
+    "bankName": "连云港商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622338,
+    "length": 19,
+    "bankName": "焦作商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622339,
+    "length": 16,
+    "bankName": "鄞州农合",
+    "cardType": "借记卡"
+  },{
+    "INN": 622340,
+    "length": 17,
+    "bankName": "徽商银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622341,
+    "length": 16,
+    "bankName": "江阴农商",
+    "cardType": "借记卡"
+  },{
+    "INN": 622342,
+    "length": 19,
+    "bankName": "攀枝花商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622343,
+    "length": 19,
+    "bankName": "佛山农信社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622345,
+    "length": 19,
+    "bankName": "成都农信社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622346,
+    "length": 16,
+    "bankName": "中国银行",
+    "cardType": "信用卡"
+  },{
+    "INN": 622347,
+    "length": 16,
+    "bankName": "中国银行",
+    "cardType": "信用卡"
+  },{
+    "INN": 622348,
+    "length": 16,
+    "bankName": "中国银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622349,
+    "length": 16,
+    "bankName": "南洋商行",
+    "cardType": "信用卡"
+  },{
+    "INN": 622350,
+    "length": 16,
+    "bankName": "南洋商行",
+    "cardType": "信用卡"
+  },{
+    "INN": 622351,
+    "length": 16,
+    "bankName": "南洋商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622352,
+    "length": 16,
+    "bankName": "集友银行",
+    "cardType": "信用卡"
+  },{
+    "INN": 622353,
+    "length": 16,
+    "bankName": "集友银行",
+    "cardType": "信用卡"
+  },{
+    "INN": 622355,
+    "length": 16,
+    "bankName": "集友银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622358,
+    "length": 19,
+    "bankName": "沧州农信社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622359,
+    "length": 19,
+    "bankName": "临沂商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622360,
+    "length": 16,
+    "bankName": "汇丰银行",
+    "cardType": "信用卡"
+  },{
+    "INN": 622361,
+    "length": 16,
+    "bankName": "汇丰银行",
+    "cardType": "信用卡"
+  },{
+    "INN": 622362,
+    "length": 19,
+    "bankName": "中山农信社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622363,
+    "length": 19,
+    "bankName": "珠海商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622365,
+    "length": 17,
+    "bankName": "东亚银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622366,
+    "length": 17,
+    "bankName": "徽商银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622367,
+    "length": 19,
+    "bankName": "绵阳商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622368,
+    "length": 19,
+    "bankName": "长沙商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622369,
+    "length": 16,
+    "bankName": "昆明农联社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622370,
+    "length": 19,
+    "bankName": "泉州商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622371,
+    "length": 16,
+    "bankName": "花旗银行",
+    "cardType": "信用卡"
+  },{
+    "INN": 622373,
+    "length": 16,
+    "bankName": "大新银行",
+    "cardType": "信用卡"
+  },{
+    "INN": 622375,
+    "length": 17,
+    "bankName": "大新银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622376,
+    "length": 16,
+    "bankName": "恒生银行",
+    "cardType": "信用卡"
+  },{
+    "INN": 622377,
+    "length": 16,
+    "bankName": "恒生银行",
+    "cardType": "信用卡"
+  },{
+    "INN": 622378,
+    "length": 16,
+    "bankName": "恒生银行",
+    "cardType": "信用卡"
+  },{
+    "INN": 622379,
+    "length": 19,
+    "bankName": "济南商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622382,
+    "length": 16,
+    "bankName": "美国银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622383,
+    "length": 16,
+    "bankName": "大连商行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622384,
+    "length": 17,
+    "bankName": "恒丰银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622385,
+    "length": 16,
+    "bankName": "大连商行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622386,
+    "length": 16,
+    "bankName": "上海商行",
+    "cardType": "信用卡"
+  },{
+    "INN": 622387,
+    "length": 16,
+    "bankName": "永隆银行",
+    "cardType": "信用卡"
+  },{
+    "INN": 622388,
+    "length": 16,
+    "bankName": "福州商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622389,
+    "length": 16,
+    "bankName": "鄞州农合",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622391,
+    "length": 16,
+    "bankName": "潍坊商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622392,
+    "length": 19,
+    "bankName": "泸州商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622393,
+    "length": 16,
+    "bankName": "厦门商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622394,
+    "length": 16,
+    "bankName": "镇江商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622395,
+    "length": 19,
+    "bankName": "大同商行",
+    "cardType": "储蓄卡"
+  },{
+    "INN": 622396,
+    "length": 17,
+    "bankName": "宜昌商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622397,
+    "length": 16,
+    "bankName": "宜昌商行",
+    "cardType": "信用卡"
+  },{
+    "INN": 622399,
+    "length": 17,
+    "bankName": "辽阳商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622400,
+    "length": 17,
+    "bankName": "营口商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622406,
+    "length": 17,
+    "bankName": "汇丰银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622407,
+    "length": 19,
+    "bankName": "汇丰银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622411,
+    "length": 16,
+    "bankName": "威海商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622412,
+    "length": 16,
+    "bankName": "湖北农信社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622413,
+    "length": 16,
+    "bankName": "鞍山商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622415,
+    "length": 16,
+    "bankName": "丹东商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622418,
+    "length": 16,
+    "bankName": "南通商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622420,
+    "length": 17,
+    "bankName": "洛阳商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622421,
+    "length": 19,
+    "bankName": "郑州商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622422,
+    "length": 16,
+    "bankName": "扬州商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622423,
+    "length": 16,
+    "bankName": "永隆银行",
+    "cardType": "信用卡"
+  },{
+    "INN": 622425,
+    "length": 17,
+    "bankName": "哈尔滨商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622426,
+    "length": 16,
+    "bankName": "天津商行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622427,
+    "length": 16,
+    "bankName": "台州商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622428,
+    "length": 16,
+    "bankName": "银川商行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622429,
+    "length": 19,
+    "bankName": "银川商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622432,
+    "length": 19,
+    "bankName": "大西洋银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622434,
+    "length": 19,
+    "bankName": "澳门国际银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622435,
+    "length": 19,
+    "bankName": "澳门国际银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622436,
+    "length": 19,
+    "bankName": "澳门国际银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622439,
+    "length": 18,
+    "bankName": "广州农联社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622440,
+    "length": 16,
+    "bankName": "吉林商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622441,
+    "length": 16,
+    "bankName": "三门峡城信社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622442,
+    "length": 17,
+    "bankName": "抚顺商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622443,
+    "length": 19,
+    "bankName": "昆山农联社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622447,
+    "length": 16,
+    "bankName": "常州商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622448,
+    "length": 16,
+    "bankName": "湛江商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622449,
+    "length": 16,
+    "bankName": "金华商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622450,
+    "length": 16,
+    "bankName": "金华商行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622451,
+    "length": 16,
+    "bankName": "大新银行",
+    "cardType": "信用卡"
+  },{
+    "INN": 622452,
+    "length": 19,
+    "bankName": "江苏农信社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622453,
+    "length": 16,
+    "bankName": "中信嘉华银行",
+    "cardType": "信用卡"
+  },{
+    "INN": 622456,
+    "length": 16,
+    "bankName": "中信嘉华银行",
+    "cardType": "信用卡"
+  },{
+    "INN": 622459,
+    "length": 17,
+    "bankName": "中信嘉华银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622462,
+    "length": 16,
+    "bankName": "常熟农商",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622463,
+    "length": 19,
+    "bankName": "廖创兴银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622466,
+    "length": 16,
+    "bankName": "沈阳商行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622467,
+    "length": 19,
+    "bankName": "广州商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622468,
+    "length": 18,
+    "bankName": "上海银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622470,
+    "length": 19,
+    "bankName": "江门农信社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622471,
+    "length": 16,
+    "bankName": "东亚银行",
+    "cardType": "信用卡"
+  },{
+    "INN": 622472,
+    "length": 16,
+    "bankName": "东亚银行",
+    "cardType": "信用卡"
+  },{
+    "INN": 622476,
+    "length": 16,
+    "bankName": "乌鲁木齐商行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622477,
+    "length": 19,
+    "bankName": "高要农联社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622478,
+    "length": 16,
+    "bankName": "上海农联社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622481,
+    "length": 16,
+    "bankName": "江阴农商",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622485,
+    "length": 18,
+    "bankName": "无锡商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622486,
+    "length": 16,
+    "bankName": "绍兴商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622487,
+    "length": 17,
+    "bankName": "星展银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622487,
+    "length": 16,
+    "bankName": "星展银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622488,
+    "length": 16,
+    "bankName": "吴江农商",
+    "cardType": "借记卡"
+  },{
+    "INN": 622489,
+    "length": 17,
+    "bankName": "大新银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622490,
+    "length": 17,
+    "bankName": "星展银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622490,
+    "length": 16,
+    "bankName": "星展银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622491,
+    "length": 17,
+    "bankName": "星展银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622491,
+    "length": 16,
+    "bankName": "星展银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622492,
+    "length": 17,
+    "bankName": "星展银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622492,
+    "length": 16,
+    "bankName": "星展银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622493,
+    "length": 16,
+    "bankName": "AEON信贷财务",
+    "cardType": "港币贷记卡"
+  },{
+    "INN": 622495,
+    "length": 16,
+    "bankName": "Travelex",
+    "cardType": "借记卡"
+  },{
+    "INN": 622496,
+    "length": 16,
+    "bankName": "Travelex",
+    "cardType": "借记卡"
+  },{
+    "INN": 622498,
+    "length": 19,
+    "bankName": "石家庄商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622499,
+    "length": 19,
+    "bankName": "石家庄商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622500,
+    "length": 16,
+    "bankName": "浦发银行",
+    "cardType": "信用卡"
+  },{
+    "INN": 622506,
+    "length": 19,
+    "bankName": "山西农联社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622509,
+    "length": 19,
+    "bankName": "高要农联社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622510,
+    "length": 19,
+    "bankName": "高要农联社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622516,
+    "length": 16,
+    "bankName": "浦发银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622517,
+    "length": 16,
+    "bankName": "浦发银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622518,
+    "length": 16,
+    "bankName": "浦发银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622519,
+    "length": 16,
+    "bankName": "浦发银行",
+    "cardType": "准贷记卡"
+  },{
+    "INN": 622521,
+    "length": 16,
+    "bankName": "浦发银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622522,
+    "length": 16,
+    "bankName": "浦发银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622523,
+    "length": 16,
+    "bankName": "浦发银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622525,
+    "length": 16,
+    "bankName": "深发银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622526,
+    "length": 16,
+    "bankName": "深发银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622538,
+    "length": 16,
+    "bankName": "深发银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622546,
+    "length": 19,
+    "bankName": "大丰银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622547,
+    "length": 19,
+    "bankName": "大丰银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622548,
+    "length": 19,
+    "bankName": "大丰银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622549,
+    "length": 16,
+    "bankName": "哈萨克斯坦国民储蓄银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622550,
+    "length": 16,
+    "bankName": "哈萨克斯坦国民储蓄银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622561,
+    "length": 19,
+    "bankName": "德阳商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622562,
+    "length": 19,
+    "bankName": "德阳商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622563,
+    "length": 19,
+    "bankName": "德阳商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622575,
+    "length": 16,
+    "bankName": "招商银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622576,
+    "length": 16,
+    "bankName": "招商银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622577,
+    "length": 16,
+    "bankName": "招商银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622578,
+    "length": 16,
+    "bankName": "招商银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622579,
+    "length": 16,
+    "bankName": "招商银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622580,
+    "length": 16,
+    "bankName": "招商银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622581,
+    "length": 16,
+    "bankName": "招商银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622582,
+    "length": 16,
+    "bankName": "招商银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622588,
+    "length": 16,
+    "bankName": "招商银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622598,
+    "length": 16,
+    "bankName": "招商银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622600,
+    "length": 16,
+    "bankName": "民生银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622601,
+    "length": 16,
+    "bankName": "民生银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622602,
+    "length": 16,
+    "bankName": "民生银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622603,
+    "length": 16,
+    "bankName": "民生银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622615,
+    "length": 16,
+    "bankName": "民生银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622617,
+    "length": 16,
+    "bankName": "民生银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622619,
+    "length": 16,
+    "bankName": "民生银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622622,
+    "length": 16,
+    "bankName": "民生银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622630,
+    "length": 16,
+    "bankName": "华夏银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622631,
+    "length": 16,
+    "bankName": "华夏银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622632,
+    "length": 16,
+    "bankName": "华夏银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622633,
+    "length": 16,
+    "bankName": "华夏银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622650,
+    "length": 16,
+    "bankName": "光大银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622655,
+    "length": 16,
+    "bankName": "光大银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622658,
+    "length": 16,
+    "bankName": "光大银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622660,
+    "length": 16,
+    "bankName": "光大银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622678,
+    "length": 16,
+    "bankName": "中信银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622679,
+    "length": 16,
+    "bankName": "中信银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622680,
+    "length": 16,
+    "bankName": "中信银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622681,
+    "length": 19,
+    "bankName": "江西农联社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622682,
+    "length": 19,
+    "bankName": "江西农联社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622684,
+    "length": 16,
+    "bankName": "渤海银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622688,
+    "length": 16,
+    "bankName": "中信银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622689,
+    "length": 16,
+    "bankName": "中信银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622690,
+    "length": 16,
+    "bankName": "中信银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622691,
+    "length": 16,
+    "bankName": "中信银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622692,
+    "length": 16,
+    "bankName": "中信银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622696,
+    "length": 16,
+    "bankName": "中信银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622698,
+    "length": 16,
+    "bankName": "中信银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622700,
+    "length": 19,
+    "bankName": "建设银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622725,
+    "length": 16,
+    "bankName": "建设银行",
+    "cardType": "准贷记卡"
+  },{
+    "INN": 622728,
+    "length": 16,
+    "bankName": "建设银行",
+    "cardType": "准贷记卡"
+  },{
+    "INN": 622750,
+    "length": 16,
+    "bankName": "中国银行",
+    "cardType": "信用卡"
+  },{
+    "INN": 622751,
+    "length": 16,
+    "bankName": "中国银行",
+    "cardType": "信用卡"
+  },{
+    "INN": 622752,
+    "length": 16,
+    "bankName": "中国银行",
+    "cardType": "准贷记卡"
+  },{
+    "INN": 622753,
+    "length": 16,
+    "bankName": "中国银行",
+    "cardType": "准贷记卡"
+  },{
+    "INN": 622754,
+    "length": 16,
+    "bankName": "中国银行",
+    "cardType": "准贷记卡"
+  },{
+    "INN": 622755,
+    "length": 16,
+    "bankName": "中国银行",
+    "cardType": "准贷记卡"
+  },{
+    "INN": 622756,
+    "length": 16,
+    "bankName": "中国银行",
+    "cardType": "准贷记卡"
+  },{
+    "INN": 622757,
+    "length": 16,
+    "bankName": "中国银行",
+    "cardType": "准贷记卡"
+  },{
+    "INN": 622758,
+    "length": 16,
+    "bankName": "中国银行",
+    "cardType": "准贷记卡"
+  },{
+    "INN": 622759,
+    "length": 16,
+    "bankName": "中国银行",
+    "cardType": "准贷记卡"
+  },{
+    "INN": 622760,
+    "length": 16,
+    "bankName": "中国银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622761,
+    "length": 16,
+    "bankName": "中国银行",
+    "cardType": "准贷记卡"
+  },{
+    "INN": 622762,
+    "length": 16,
+    "bankName": "中国银行",
+    "cardType": "准贷记卡"
+  },{
+    "INN": 622763,
+    "length": 16,
+    "bankName": "中国银行",
+    "cardType": "准贷记卡"
+  },{
+    "INN": 622770,
+    "length": 19,
+    "bankName": "中国银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622777,
+    "length": 16,
+    "bankName": "曲靖商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622821,
+    "length": 19,
+    "bankName": "农业银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622822,
+    "length": 19,
+    "bankName": "农业银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622823,
+    "length": 19,
+    "bankName": "农业银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622824,
+    "length": 19,
+    "bankName": "农业银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622825,
+    "length": 19,
+    "bankName": "农业银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622826,
+    "length": 19,
+    "bankName": "农业银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622836,
+    "length": 16,
+    "bankName": "农业银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622837,
+    "length": 16,
+    "bankName": "农业银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622840,
+    "length": 19,
+    "bankName": "农业银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622844,
+    "length": 19,
+    "bankName": "农业银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622845,
+    "length": 19,
+    "bankName": "农业银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622846,
+    "length": 19,
+    "bankName": "农业银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622847,
+    "length": 19,
+    "bankName": "农业银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622848,
+    "length": 19,
+    "bankName": "农业银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622855,
+    "length": 19,
+    "bankName": "江苏农商",
+    "cardType": "借记卡"
+  },{
+    "INN": 622856,
+    "length": 17,
+    "bankName": "桂林商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622857,
+    "length": 19,
+    "bankName": "日照商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622858,
+    "length": 19,
+    "bankName": "浙江农联社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622859,
+    "length": 19,
+    "bankName": "珠海农联社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622860,
+    "length": 16,
+    "bankName": "大庆商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622861,
+    "length": 16,
+    "bankName": "永亨银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622864,
+    "length": 16,
+    "bankName": "莱芜商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622865,
+    "length": 19,
+    "bankName": "长春商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622866,
+    "length": 16,
+    "bankName": "徐州商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622867,
+    "length": 16,
+    "bankName": "重庆农联社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622869,
+    "length": 19,
+    "bankName": "太仓农商",
+    "cardType": "借记卡"
+  },{
+    "INN": 622870,
+    "length": 16,
+    "bankName": "靖江城信社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622871,
+    "length": 16,
+    "bankName": "永亨银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622877,
+    "length": 19,
+    "bankName": "徽商银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622878,
+    "length": 18,
+    "bankName": "杭州商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622879,
+    "length": 19,
+    "bankName": "徽商银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622880,
+    "length": 16,
+    "bankName": "柳州商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622881,
+    "length": 16,
+    "bankName": "柳州商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622882,
+    "length": 19,
+    "bankName": "尧都区农联社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622884,
+    "length": 16,
+    "bankName": "渤海银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622885,
+    "length": 16,
+    "bankName": "重庆农联社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622886,
+    "length": 16,
+    "bankName": "烟台商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622891,
+    "length": 19,
+    "bankName": "武进农商",
+    "cardType": "借记卡"
+  },{
+    "INN": 622892,
+    "length": 18,
+    "bankName": "上海银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622893,
+    "length": 19,
+    "bankName": "贵州农联社",
+    "cardType": "借记卡"
+  },{
+    "INN": 622895,
+    "length": 16,
+    "bankName": "锡州农商",
+    "cardType": "借记卡"
+  },{
+    "INN": 622897,
+    "length": 19,
+    "bankName": "南充商行(合资)",
+    "cardType": "借记卡"
+  },{
+    "INN": 622898,
+    "length": 16,
+    "bankName": "长沙商行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622900,
+    "length": 16,
+    "bankName": "长沙商行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622901,
+    "length": 16,
+    "bankName": "兴业银行",
+    "cardType": "贷记卡"
+  },{
+    "INN": 622908,
+    "length": 18,
+    "bankName": "兴业银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 622909,
+    "length": 16,
+    "bankName": "兴业银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 650600,
+    "length": 16,
+    "bankName": "Discover Financial Services",
+    "cardType": "贷记卡"
+  },{
+    "INN": 650700,
+    "length": 16,
+    "bankName": "Discover Financial Services",
+    "cardType": "贷记卡"
+  },{
+    "INN": 650800,
+    "length": 16,
+    "bankName": "Discover Financial Services",
+    "cardType": "贷记卡"
+  },{
+    "INN": 650900,
+    "length": 16,
+    "bankName": "Discover Financial Services",
+    "cardType": "贷记卡"
+  },{
+    "INN": 682900,
+    "length": 18,
+    "bankName": "上海银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 683970,
+    "length": 18,
+    "bankName": "泉州商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 685800,
+    "length": 18,
+    "bankName": "广发银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 685800,
+    "length": 16,
+    "bankName": "广发银行",
+    "cardType": "信用卡"
+  },{
+    "INN": 690755,
+    "length": 15,
+    "bankName": "招商银行",
+    "cardType": "储蓄卡"
+  },{
+    "INN": 690755,
+    "length": 18,
+    "bankName": "招商银行",
+    "cardType": "储蓄卡"
+  },{
+    "INN": 694301,
+    "length": 18,
+    "bankName": "长沙商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 695800,
+    "length": 18,
+    "bankName": "南通商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 843010,
+    "length": 16,
+    "bankName": "浦发银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 843360,
+    "length": 16,
+    "bankName": "浦发银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 843420,
+    "length": 16,
+    "bankName": "浦发银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 843610,
+    "length": 16,
+    "bankName": "浦发银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 843730,
+    "length": 16,
+    "bankName": "浦发银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 843800,
+    "length": 16,
+    "bankName": "浦发银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 843850,
+    "length": 16,
+    "bankName": "浦发银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 843900,
+    "length": 16,
+    "bankName": "浦发银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 870000,
+    "length": 16,
+    "bankName": "浦发银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 870100,
+    "length": 16,
+    "bankName": "浦发银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 870300,
+    "length": 16,
+    "bankName": "浦发银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 870400,
+    "length": 16,
+    "bankName": "浦发银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 870500,
+    "length": 16,
+    "bankName": "浦发银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 888000,
+    "length": 16,
+    "bankName": "贵阳商行",
+    "cardType": "借记卡"
+  },{
+    "INN": 955880,
+    "length": 16,
+    "bankName": "工商银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 955881,
+    "length": 16,
+    "bankName": "工商银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 955882,
+    "length": 16,
+    "bankName": "工商银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 955888,
+    "length": 16,
+    "bankName": "工商银行",
+    "cardType": "借记卡"
+  },{
+    "INN": 984301,
+    "length": 16,
+    "bankName": "浦发银行",
+    "cardType": "借记卡"
+  }
+]

@@ -1,0 +1,16 @@
+ <div class="white-bg1" ng-if="popSample.popup">
+</div>
+<div class="popup-public" ng-if="popSample.popup">
+	<div class="popup-public-content">
+		<div class="poput_public_text">
+			<p>
+				<label ng-bind="popSample.popText"></label>
+			</p>
+		</div>
+		<div class="popup_public_button">
+		<!--选中追加样式popup_public_button_1_active-->
+			<input type="button" value="知道了" class="popup_public_button-1 popup_public_button_1_active"  ng-click="popSample.change()"></input>
+		</div>
+	</div>
+	<div style="clear:both"></div>
+</div>

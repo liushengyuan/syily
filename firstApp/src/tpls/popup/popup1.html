@@ -1,0 +1,17 @@
+<div class="white-bg1" ng-if="popSure.popup">
+</div>
+<div class="popup-public" ng-if="popSure.popup">
+	<div class="popup-public-content">
+		<div class="poput_public_text">
+			<p>
+				<label ng-bind="popSure.popText"></label>
+			</p>
+		</div>
+		<div class="popup_public_button1">
+		<!--选中追加样式popup_public_button_2_active-->
+			<input type="button" value="否" class="popup_public_button-2 popup-public-button_bor" ng-click="popSure.popup = false"></input>
+			<input type="button" value="是" class="popup_public_button-2 popup_public_button_2_active" ng-click="popSure.change()"></input>
+		</div>
+	</div>
+	<div style="clear:both"></div>
+</div>

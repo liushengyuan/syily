@@ -1,0 +1,1430 @@
+@charset "UTF-8";
+/*公共样式*/
+/*设置外边距*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+input select {
+  outline: none;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Microsoft YaHei", "Arial";
+  padding: 0;
+  margin: 0;
+  min-width: 320px;
+}
+
+/*导航*/
+.banner {
+  width: 100%;
+  height: 50px;
+  background: #28b46b;
+  text-align: center;
+  line-height: 50px;
+}
+.banner .banner-left {
+  font-size: 18px;
+  color: #ee193a;
+  float: left;
+  margin-left: 4%;
+  font-weight: bolder;
+  height: 40px;
+  padding-top: 8px;
+}
+.banner .banner-left img {
+  height: 30px;
+  width: 30px;
+}
+.banner label {
+  color: #fff;
+  font-size: 18px;
+}
+.banner .banner-right {
+  float: right;
+  margin-right: 4%;
+  width: 40px;
+  height: 40px;
+}
+
+/*红色显示*/
+.red-banner {
+  width: 100%;
+  height: 30px;
+  background: #ee193a;
+  line-height: 30px;
+}
+.red-banner label {
+  margin-left: 4%;
+  color: #fff;
+}
+
+/*按钮样式*/
+.btn-style {
+  border-top: 1px solid #ccc7b0;
+  border-bottom: 1px solid #ccc7b0;
+  border-radius: 5px;
+  background:#28b46b;
+  text-align: center;
+  margin-right: 5%;
+  margin-top: 20px;
+  margin-left: 5%;
+  width: 90%;
+  height: 40px;
+  color: #fff;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: "Microsoft YaHei", "Arial";
+}
+
+.color-neverused {
+  background: #DDDDDD;
+}
+
+/* 油站导航 oilNav.html*/
+input select {
+  outline: none;
+}
+
+.oil-map {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  font-family: '微软雅黑';
+}
+
+.oilNav-collect {
+  padding-left: 14%;
+  color: #fff;
+  height: 30px;
+  line-height: 30px;
+  width: 86%;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.oilNav-collectStar0 {
+  background: #ee193a url(../img/oilStation-star0.png) no-repeat top left;
+  background-size: 7%;
+  background-position: 4%;
+}
+
+.oilNav-collectStar1 {
+  background: #ee193a url(../img/oilStation-star1.png) no-repeat top left;
+  background-size: 7%;
+  background-position: 4%;
+}
+
+.oilNav-continter {
+  width: 90%;
+  padding: 0px 5%;
+}
+.oilNav-continter dl {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  margin-top: 10px;
+}
+.oilNav-continter dt {
+  display: block;
+  float: left;
+  width: 20%;
+  line-height: 30px;
+  font-size: 14px;
+  margin-right: 5%;
+  text-align: left;
+}
+.oilNav-continter dd {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  float: left;
+  width: 75%;
+  margin: 0;
+  /*div{
+   	width:107%;
+  	display:nth($displays,2);
+  	overflow:hidden;
+  	
+  }
+  select{
+  	left:-2px;
+  	top:-2px;
+  	background:url(../img/select.png) no-repeat right top;
+  	background-position:93%;
+  	background-size:30px;
+  	width:100%;
+  	height:$height30;
+  	border:1px solid #a8a8a8;
+  	outline:none;
+  	option{
+  		outline:none;
+  	}
+  } */
+}
+
+.oilSelect {
+  position: relative;
+  vertical-align: middle;
+  padding: 0px;
+  overflow: hidden;
+  background: #fff;
+  color: #555;
+  border: 1px solid #aaa;
+  text-shadow: none;
+}
+.oilSelect select {
+  border-radius: 0;
+  cursor: pointer;
+  padding: 0.3em;
+  /* padding-right:2em; */
+  width: 100%;
+  border: none;
+  background: transparent;
+  background-image: url(../img/select.png);
+  background-size: 33px;
+  background-position: 100%;
+  outline: none;
+  background-repeat: no-repeat;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-indent: 0.01px;
+  line-height: 23px;
+  text-overflow: '';
+}
+
+.oilNavbutton {
+  margin-bottom: 20px;
+}
+
+/* 我的收藏 my-collection*/
+.my-collection {
+  font: "微软雅黑";
+}
+.my-collection ul {
+  display: inline-block;
+  width: 100%;
+}
+.my-collection li {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.myCollection-left {
+  display: block;
+  float: left;
+  width: 30%;
+}
+
+.myCollection-right {
+  display: block;
+  float: right;
+  width: 60%;
+  margin-top: 5px;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.myCollection-right .myCollection-oilname {
+  font-weight: bold;
+  font-size: 16px;
+}
+.myCollection-right .myCollection-adddress {
+  font-size: 14px;
+  margin-top: 5px;
+  width: 95%;
+}
+.myCollection-right .myCollection-daistance {
+  font-size: 14px  ！important;
+  margin-top: 5px;
+}
+.myCollection-right .myCollection-daistance span {
+  color: #ee193a;
+}
+.myCollection-right .myCollection-evaluate {
+  font-size: 14px;
+  margin-top: 5px;
+}
+.myCollection-right .myCollection-evaluate span {
+  display: block;
+  float: left;
+  width: 40%;
+}
+.myCollection-right .myCollection-evaluate div {
+  display: block;
+  width: 60%;
+  float: left;
+  height: 22px;
+}
+.myCollection-right .myCollection-evaluate .myCollection-star0 {
+  background: url(../img/my-collection-star0.png) no-repeat;
+  background-size: 75%;
+}
+.myCollection-right .myCollection-evaluate .myCollection-star {
+  background: url(../img/my-collection-star0.png) no-repeat;
+  background-size: 75%;
+}
+.myCollection-right .myCollection-evaluate .myCollection-star1 {
+  background: url(../img/my-collection-star1.png) no-repeat;
+  background-size: 75%;
+}
+.myCollection-right .myCollection-evaluate .myCollection-star2 {
+  background: url(../img/my-collection-star2.png) no-repeat;
+  background-size: 75%;
+}
+.myCollection-right .myCollection-evaluate .myCollection-star3 {
+  background: url(../img/my-collection-star3.png) no-repeat;
+  background-size: 75%;
+}
+.myCollection-right .myCollection-evaluate .myCollection-star4 {
+  background: url(../img/my-collection-star4.png) no-repeat;
+  background-size: 75%;
+}
+.myCollection-right .myCollection-evaluate .myCollection-star5 {
+  background: url(../img/my-collection-star5.png) no-repeat;
+  background-size: 75%;
+}
+
+.coupon-nospan {
+  display: block;
+  position: absolute;
+  top: 40px;
+  right: 3%;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ee193a;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.coupon-nospan img {
+  width: 8px;
+  height: 14px;
+}
+
+.all-jt {
+  width: 8px;
+  height: 14px;
+}
+
+/* 油站导航详情 oilDetails*/
+.oilDetails-collect {
+  background-position: 96%;
+  padding-left: 5%;
+  width: 95%;
+}
+
+.oilDetails-news {
+  width: 100%;
+}
+.oilDetails-news label {
+  display: block;
+  padding-left: 5%;
+  background: #ee193a;
+  width: 95%;
+  height: 25px;
+  line-height: 25px;
+  color: #fff;
+}
+.oilDetails-news .oilDetails-newsnr {
+  width: 90%;
+  padding: 0 5%;
+  /* margin-top:10px; */
+}
+.oilDetails-news .oilDetails-newsdl {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+  /* padding-left:5%; */
+  margin: 5px 0;
+}
+.oilDetails-news .oilDetails-newsdl dt {
+  margin: 0;
+  background: url(../img/oilDetails-block.png) no-repeat left;
+  background-size: 8px;
+  float: left;
+  width: 20%;
+  text-align: right;
+}
+.oilDetails-news .oilDetails-newsdl dd {
+  float: left;
+  width: 70%;
+  margin: 0;
+}
+.oilDetails-news .oilDetails-newsdl .oilDetails-phone {
+  color: #1e6dc6;
+  text-decoration: underline;
+}
+.oilDetails-news .oilDetails-newsdl span {
+  top: 0px;
+  right: 1%;
+}
+
+/*等级评价*/
+.comment-star span {
+  display: table-cell;
+  width: 32%;
+  text-align: left;
+  vertical-align: middle;
+}
+.comment-star .comment-star0 {
+  background: url(../img/my-collection-star0.png) no-repeat;
+  display: table-cell;
+  width: 75%;
+  text-align: left;
+  background-size: contain;
+  vertical-align: middle;
+}
+.comment-star .comment-star1 {
+  background: url(../img/my-collection-star1.png) no-repeat;
+  display: table-cell;
+  width: 75%;
+  text-align: left;
+  background-size: contain;
+  vertical-align: middle;
+}
+.comment-star .comment-star2 {
+  background: url(../img/my-collection-star2.png) no-repeat;
+  display: table-cell;
+  width: 75%;
+  text-align: left;
+  background-size: contain;
+  vertical-align: middle;
+}
+.comment-star .comment-star3 {
+  background: url(../img/my-collection-star3.png) no-repeat;
+  display: table-cell;
+  width: 75%;
+  text-align: left;
+  background-size: contain;
+  vertical-align: middle;
+}
+.comment-star .comment-star4 {
+  background: url(../img/my-collection-star4.png) no-repeat;
+  display: table-cell;
+  width: 75%;
+  text-align: left;
+  background-size: contain;
+  vertical-align: middle;
+}
+.comment-star .comment-star5 {
+  background: url(../img/my-collection-star5.png) no-repeat;
+  display: table-cell;
+  width: 75%;
+  text-align: left;
+  background-size: contain;
+  vertical-align: middle;
+}
+.comment-star .comment-stars {
+  display: table-cell;
+  width: 75%;
+  text-align: left;
+  background-size: contain;
+  vertical-align: middle;
+}
+.comment-star .comment-stars span {
+  width: 21px;
+  height: 18px;
+  display: inline-block;
+}
+.comment-star .comment-stars .comment-stars-a {
+  background: url(../img/star4.png) no-repeat;
+  background-size: cover;
+  background-position-x: -23px;
+}
+.comment-star .comment-stars .comment-stars-b {
+  background: url(../img/star4.png) no-repeat;
+  background-size: cover;
+}
+
+/*油站评论列表*/
+.gass-comment {
+  width: 100%;
+  height: 86%;
+  overflow: hidden;
+  top: 50px;
+}
+.gass-comment .comment-details {
+  width: 100%;
+  height: 88%;
+  overflow: hidden;
+  margin-bottom: 54px;
+}
+.gass-comment .comment-details .comment-details-ul {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+.gass-comment .comment-details .comment-details-ul li {
+  width: 90%;
+  padding: 2% 5%;
+  border-bottom: 1px solid #d7d7d7;
+}
+.gass-comment .comment-details .comment-details-dl {
+  width: 100%;
+}
+.gass-comment .comment-details .comment-details-dl dd {
+  width: 100%;
+  display: table;
+  padding: 1% 0;
+  color: #666;
+  font-size: 0.9px;
+}
+.gass-comment .comment-details .comment-details-dl .comment-details-name label {
+  display: table-cell;
+  width: 100%;
+  font-weight: 700;
+  font-size: 1px;
+}
+.gass-comment .comment-details .comment-details-dl .comment-details-text span {
+  display: table-cell;
+  width: 25%;
+  text-align: left;
+  vertical-align: top;
+}
+.gass-comment .comment-details .comment-details-dl .comment-details-text label {
+  display: table-cell;
+  width: 75%;
+  text-align: left;
+  vertical-align: top;
+  word-break: break-all;
+}
+.gass-comment .comment-details .comment-details-dl .comment-details-time label {
+  color: #ccc;
+  width: 100%;
+  display: table-cell;
+  font-size: 0.9px;
+  text-align: left;
+}
+
+.comment-bottom {
+  position: fixed;
+  bottom: 0;
+  padding: 2% 0;
+}
+
+.comment-button {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  background: #fff;
+}
+.comment-button input {
+  outline: none;
+  border-left: none;
+  border-right: none;
+}
+.comment-button .btn-style1 {
+  border-top: 1px solid #fef3c1;
+  border-bottom: 1px solid #ccc7b0;
+  border-radius: 5px;
+  background: #fbce07;
+  text-align: center;
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 90%;
+  height: 40px;
+  color: #404040;
+  line-height: 40px;
+  font-size: 18px;
+}
+
+/*添加评论*/
+.add-comment {
+  width: 100%;
+  height: 100%;
+}
+.add-comment .add-comment-star {
+  display: table;
+  width: 90%;
+  padding: 3.5% 5%;
+  font-size: 0.9px;
+}
+.add-comment .add-comment-text {
+  width: 90%;
+  padding: 2% 5%;
+  display: inline-block;
+}
+.add-comment .add-comment-text textarea {
+  display: inline-block;
+  width: 96%;
+  resize: none;
+  outline: none;
+  border: 1px solid #a8a8a8;
+  font-size: 0.9px;
+  background: none;
+  padding: 2%;
+}
+.add-comment .add-comment-text .add-comment-account {
+  width: 100%;
+  padding: 2% 0;
+  border-bottom: 0.1px dotted #ccc;
+  text-align: right;
+  display: inline-block;
+}
+.add-comment .add-comment-text .add-comment-account label {
+  color: #ccc;
+  font-size: 0.9px;
+}
+.add-comment .add_newsbj {
+  width: 85%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 8%;
+  padding-bottom: 20%;
+}
+
+.add-comment-title {
+  display: inline-block;
+  /* width:40%; */
+  padding: 1% 5%;
+  background: #ee193a;
+  text-align: left;
+}
+.add-comment-title label {
+  color: #fff;
+}
+
+.new_logo {
+  position: absolute;
+  text-align: right;
+  height: 2.4px;
+  right: 0;
+  padding-top: 4%;
+}
+.new_logo img {
+  height: 100%;
+}
+
+/* 优惠券列表 */
+.couponlist {
+  width: 100%;
+  display: inline-block;
+}
+.couponlist .couponlist-ul {
+  width: 100%;
+}
+.couponlist .couponlist-ul li {
+  width: 90%;
+  padding: 5px 5%;
+  display: inline-block;
+  border-bottom: 0.6px solid #eee;
+}
+.couponlist .couponlist-ul li dl {
+  width: 100%;
+  color: #333;
+  display: inline-block;
+}
+.couponlist .couponlist-ul li dl dt {
+  width: 25%;
+  float: left;
+}
+.couponlist .couponlist-ul li dl dd {
+  width: 75%;
+  float: right;
+}
+
+.transaction-record-pj {
+  position: absolute;
+  bottom: 16px;
+  right: 5%;
+  width: 50px;
+  text-align: center;
+  background: #fff;
+}
+.transaction-record-pj input {
+  border-top: 1px solid #fef3c1;
+  border-left: 1px solid #fef3c1;
+  border-right: 1px solid #ccc7b0;
+  border-bottom: 1px solid #ccc7b0;
+  border-radius: 5px;
+  background: #fbce07;
+  text-align: center;
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 50px;
+  height: 25px;
+  color: #404040;
+  line-height: 25px;
+  font-size: 13px;
+}
+.transaction-record-pj .btn-style1 {
+  border: none;
+  background: #dedede;
+}
+
+/* 微信支付 */
+.wechatpay-continter {
+  width: 90%;
+  padding: 0px 5%;
+  margin-top: 5%;
+}
+.wechatpay-continter dl {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  margin-top: 10px;
+}
+.wechatpay-continter dt {
+  display: block;
+  float: left;
+  width: 25%;
+  line-height: 30px;
+  font-size: 14px;
+  margin-right: 5%;
+  text-align: left;
+}
+.wechatpay-continter dd {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  float: left;
+  width: 70%;
+  margin: 0;
+}
+
+.wechatpay-Select {
+  position: relative;
+  vertical-align: middle;
+  padding: 0px;
+  overflow: hidden;
+  background: #fff;
+  color: #555;
+  border: 1px solid #aaa;
+  text-shadow: none;
+  text-align: left;
+}
+.wechatpay-Select select {
+  border-radius: 0;
+  cursor: pointer;
+  padding: 0.3em;
+  /* padding-right:2em; */
+  width: 100%;
+  border: none;
+  background: transparent;
+  background-image: url(../img/wechatpay-select.png);
+  background-size: 33px;
+  background-position: 100%;
+  outline: none;
+  background-repeat: no-repeat;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-indent: 0.01px;
+  line-height: 23px;
+  text-overflow: '';
+}
+.wechatpay-Select input {
+  width: 96%;
+  margin: 0 auto;
+  height: 30px;
+  border: none;
+  outline: none;
+  margin-left: 3%;
+}
+.wechatpay-Select .span-box {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  overflow: hidden;
+  width: 87%;
+  float: left;
+}
+.wechatpay-Select .span-box-select-yq {
+  text-align: center;
+  width: 100%;
+  background: #ee193a;
+}
+.wechatpay-Select span {
+  line-height: 30px;
+  height: 30px;
+  margin-left: 3%;
+}
+.wechatpay-Select img {
+  width: 24px;
+  float: right;
+  margin-top: 3px;
+}
+
+.wechatpay-span {
+  width: 46%;
+  float: left;
+  margin-right: 6%;
+}
+
+.no-right {
+  margin-right: 0px;
+}
+
+.wechatpay-btn {
+  margin-top: 30%;
+}
+
+.wechatpay-popup-box {
+  width: 90%;
+  margin: 0 auto;
+  height: auto;
+  position: fixed;
+  top: 10%;
+  left: 5%;
+  border: 1px solid #444;
+  z-index: 3;
+  background: #fff;
+}
+.wechatpay-popup-title{
+  border-bottom: 1px solid #444444;
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+}
+.wechatpay-popup-box ul {
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid #444444;
+}
+.wechatpay-popup-box ul li {
+  width: 24.7%;
+  float: left;
+  height: 70px;
+  border-right: 1px solid #444;
+  line-height: 70px;
+  position: relative;
+  background-color: #fff;
+  list-style-type: none;
+}
+.wechatpay-popup-box ul li i {
+  position: absolute;
+  /* left: 50%; */
+  /* margin-left: -10px; */
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.popup-boxnobottom {
+  border-bottom: none !important;
+}
+
+.popup-boxnoright {
+  border-right: none !important;
+}
+
+.popup-bg-black {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  opacity: 0.7;
+}
+
+.oil-gun-select {
+  background-color: darkgray !important;
+}
+.oil-gun-select .oil-gun-select-i {
+  color: dimgrey !important;
+}
+
+.oil-gun-select-span {
+  color: #fff;
+}
+
+/* 支付成功 */
+.pay-success-box {
+  text-align: center;
+  margin-top: 25%;
+}
+.pay-success-box img {
+  width: 100px;
+}
+.pay-success-box .transfer-success-img {
+  width: 230px;
+}
+.pay-success-box p {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 5%;
+}
+.pay-success-box .transfer-success-p {
+  color: #dd3427;
+  margin-top: 10%;
+  font-size: 30px;
+}
+
+/* 油站选择 */
+.gasstation-choose-tittle {
+  width: 100%;
+}
+.gasstation-choose-tittle .gasstation-choose-tittle-name {
+  height: 35px;
+  margin: 0px;
+  padding: 0;
+  line-height: 35px;
+}
+.gasstation-choose-tittle .gasstation-choose-tittle-name li {
+  display: block;
+  float: left;
+  width: 24.688%;
+  text-align: center;
+  border-left: 1px solid #a9a9a9;
+  font-size: 12px;
+  color: #555;
+  background-color: #d3d3d3;
+}
+.gasstation-choose-tittle .gasstation-choose-tittle-name .gasstation-choose-tittle-active {
+  background: #ee193a;
+  background-position: 92%;
+  color: #fff;
+}
+
+.gasstation-choose-content {
+  width: 100%;
+  /* 搜索 */
+}
+.gasstation-choose-content .gasstation-choose-continter li {
+  position: relative;
+  border-bottom: 1px solid #d7d7d7;
+  padding: 5px 5%;
+  font-family: "微软雅黑";
+  min-height: 140px;
+  list-style-type: none;
+}
+.gasstation-choose-content .gasstation-choose-continter li dl {
+  height: auto;
+}
+.gasstation-choose-content .gasstation-choose-continter li dl dt {
+  float: left;
+  width: 30%;
+  height: auto;
+}
+.gasstation-choose-content .gasstation-choose-continter li dl dt .gasstation-choose-libox {
+  height: 130px;
+  width: 100%;
+  margin-top: 5%;
+}
+.gasstation-choose-content .gasstation-choose-continter li dl dt .gasstation-choose-libox .gasstation-choose-liboximg {
+  width: 100%;
+  height: 100%;
+  border-radius: .01px;
+  overflow: hidden;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-flex;
+  background: url(../img/jiazai_ico1.png) center center no-repeat #d1dee0;
+  background-size: inherit;
+}
+.gasstation-choose-content .gasstation-choose-continter li dl dd {
+  float: left;
+  width: 65%;
+  height: auto;
+  margin: 2% 0 2% 5%;
+  min-height: 100px;
+}
+.gasstation-choose-content .gasstation-choose-continter li dl dd .gasstation-choose-name {
+  font-weight: bolder;
+  font-size: 20px;
+}
+.gasstation-choose-content .gasstation-choose-continter li dl dd p {
+  line-height: 30px;
+  font-size: 16px;
+  margin-left: 2%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin: 3% 0;
+}
+.gasstation-choose-content .gasstation-choose-continter li dl dd p label {
+  margin-right: 10%;
+}
+.gasstation-choose-content .gasstation-choose-continter li dl dd p label i {
+  font-style: normal;
+  word-break: break-all;
+}
+.gasstation-choose-content .gasstation-choose-continter li dl dd p img {
+  width: 50px;
+  float: right;
+}
+.gasstation-choose-content .gasstation-choose-box {
+  width: 75%;
+  margin-left: 5%;
+  float: left;
+  height: 30px;
+  border: 1px solid #444;
+}
+.gasstation-choose-content .gasstation-choose-box input {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  width: 96%;
+  margin-left: 3%;
+}
+.gasstation-choose-content .gasstation-choose-btn {
+  width: 15%;
+  float: right;
+  margin-top: 2%;
+}
+
+.gaschoose-search {
+  margin-top: 5%;
+}
+
+/* 油站选择-地图 */
+.gasstation-choosemap {
+  width: 100%;
+  height: 655px;
+  background: url(../img/gaschoose-map.png) no-repeat;
+}
+.gasstation-choosemap .gasstation-choosemap-title {
+  background: #ccc;
+  height: 30px;
+  line-height: 30px;
+}
+.gasstation-choosemap .gasstation-choosemap-title span {
+  font-size: 14px;
+  margin-left: 5%;
+}
+.gasstation-choosemap .gasstation-choosemap-title img {
+  float: right;
+  width: 30px;
+  margin-right: 3%;
+}
+
+.gasstation-choose-popup-box {
+  width: 100%;
+  margin: 0 auto;
+  height: 205px;
+  position: fixed;
+  background-color: #fff;
+  top: 13%;
+}
+.gasstation-choose-popup-box ul li {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #999;
+}
+.gasstation-choose-popup-box ul li span {
+  margin-left: 3%;
+}
+
+/* 转账 */
+.transfer-title {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #000;
+}
+.transfer-title label {
+  margin-left: 3%;
+  font-size: 17px;
+  font-weight: bolder;
+}
+.transfer-title label i {
+  vertical-align: middle;
+}
+
+.transfer-btn {
+  margin-top: 50% !important;
+}
+
+.transfer-dt {
+  width: 25% !important;
+}
+
+.transfer-dd {
+  width: 70% !important;
+}
+.transfer-dd .transfer-Select {
+  padding: 0px;
+  background: #fff;
+  color: #555;
+  border: 1px solid #aaa;
+  text-shadow: none;
+  text-align: left;
+}
+.transfer-dd .transfer-Select input {
+  width: 96%;
+  margin: 0 auto;
+  height: 30px;
+  border: none;
+  outline: none;
+  margin-left: 3%;
+}
+
+/* 转账成功 */
+.transfer-success-btnbox {
+  margin-top: 5%;
+}
+.transfer-success-btnbox .transfer-success-btn {
+  width: 40% !important;
+  float: left;
+}
+
+/* 弹窗1 */
+.white-bg1 {
+  width: 100%;
+  height: 100%;
+  background: black;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  opacity: 0.6;
+}
+
+.popup-public {
+  bottom: auto;
+  top: 38%;
+  left: 15%;
+  width: 70%;
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: middle;
+  display: table;
+  background: #ffffff;
+  position: fixed;
+  z-index: 3;
+}
+.popup-public .popup-public-content {
+  width: 100%;
+  height: 100%;
+  min-height: 140px;
+}
+.popup-public .popup-public-content .poput_public_text {
+  width: 90%;
+  margin: 0 auto;
+  min-height: 100px;
+  height: auto;
+  text-align: center;
+}
+.popup-public .popup-public-content .poput_public_text p {
+  min-height: 100px;
+  height: auto;
+  display: table;
+  width: 100%;
+}
+.popup-public .popup-public-content .poput_public_text p label {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: bolder;
+}
+.popup-public .popup-public-content .popup_public_button {
+  width: 100%;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.popup-public .popup-public-content .popup_public_button .popup_public_button-1 {
+  font-family: "SanFrancisco","Hiragino Sans GB W3","Microsoft YaHei";
+  height: 2.5em;
+  border: none;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 1% 0;
+  color: #666;
+  background: transparent;
+  font-weight: bold;
+}
+.popup-public .popup-public-content .popup_public_button1 {
+  width: 100%;
+  display: -webkit-inline-box;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.popup-public .popup-public-content .popup_public_button1 .popup_public_button-2 {
+  font-family: "SanFrancisco","Hiragino Sans GB W3","Microsoft YaHei";
+  min-height: 40px;
+  border: none;
+  font-size: 16px;
+  width: 50%;
+  border-top: 1px solid #ccc;
+  display: inherit;
+  padding: 1% 0;
+  color: #fff;
+  text-align: center;
+  background: transparent;
+  border-radius: 0px;
+  font-weight: bold;
+  background: #ee193a;
+}
+.popup-public .popup-public-content .popup_public_button1 .popup-public-button_bor {
+  border-right: 1px solid #ccc;
+}
+
+/* 弹窗2 */
+.popup-transfer {
+  bottom: auto;
+  top: 8%;
+  left: 10%;
+  width: 80%;
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: middle;
+  display: table;
+  background: #ffffff;
+  position: fixed;
+  z-index: 3;
+}
+.popup-transfer .popup-transfer-content {
+  width: 100%;
+  height: auto;
+  min-height: 250px;
+}
+.popup-transfer .popup-transfer-content .popup-transfer-title {
+  width: 90%;
+  margin: 0 auto;
+  height: auto;
+  text-align: center;
+  padding-top: 10%;
+}
+.popup-transfer .popup-transfer-content .popup-transfer-title p {
+  height: auto;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+}
+.popup-transfer .popup-transfer-content .popup-transfer-title p label {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.popup-transfer .popup-transfer-content .popup-transfer-box {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 10%;
+}
+.popup-transfer .popup-transfer-content .popup-transfer-box p {
+  font-size: 16px;
+  text-align: left;
+  height: 30px;
+  line-height: 20px;
+}
+.popup-transfer .popup-transfer-content .popup-transfer-box ul {
+  border: 1px solid #000;
+  width: 100%;
+  height: 40px;
+}
+.popup-transfer .popup-transfer-content .popup-transfer-box ul li {
+  width: 16.352%;
+  float: left;
+  height: 40px;
+  border-right: 1px solid #000;
+  display: table;
+  position: relative;
+}
+.popup-transfer .popup-transfer-content .popup-transfer-box ul li span {
+  width: 8px;
+  height: 8px;
+  background: #000;
+  position: absolute;
+  top: 50%;
+  margin-top: -4px;
+  left: 50%;
+  margin-left: -4px;
+  border-radius: 70%;
+}
+.popup-transfer .popup-transfer-content .popup-transfer-box ul .popup-transfer-td {
+  border-right: none;
+}
+.popup-transfer .popup-transfer-content .popup_public_button {
+  width: 100%;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.popup-transfer .popup-transfer-content .popup_public_button .popup_public_button-1 {
+  font-family: "SanFrancisco","Hiragino Sans GB W3","Microsoft YaHei";
+  height: 2.5em;
+  border: none;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 1% 0;
+  color: #666;
+  background: transparent;
+  font-weight: bold;
+}
+.popup-transfer .popup-transfer-content .popup_public_button1 {
+  width: 100%;
+  display: -webkit-inline-box;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.popup-transfer .popup-transfer-content .popup_public_button1 .popup_public_button-2 {
+  font-family: "SanFrancisco","Hiragino Sans GB W3","Microsoft YaHei";
+  min-height: 40px;
+  border: none;
+  font-size: 16px;
+  width: 50%;
+  border-top: 1px solid #ccc;
+  display: inherit;
+  padding: 1% 0;
+  color: #fff;
+  text-align: center;
+  background: transparent;
+  border-radius: 0px;
+  font-weight: bold;
+  background: #ee193a;
+}
+.popup-transfer .popup-transfer-content .popup_public_button1 .popup-public-button_bor {
+  border-right: 1px solid #ccc;
+}
+
+/* 转账小键盘 */
+.transfer-success-keyboard {
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  position: fixed;
+  bottom: 0px;
+  border: 1px solid #444;
+  z-index: 3;
+}
+.transfer-success-keyboard ul {
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid #a4a4a9;
+}
+.transfer-success-keyboard ul li {
+  width: 33%;
+  float: left;
+  height: 70px;
+  border-right: 1px solid #a4a4a9;
+  line-height: 70px;
+  position: relative;
+  background-color: #fff;
+}
+.transfer-success-keyboard ul li i {
+  position: absolute;
+  /* left: 50%; */
+  /* margin-left: -10px; */
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.transfer-success-keyboard ul li img {
+  width: 30px;
+  top: 50%;
+  margin-top: -15px;
+  left: 50%;
+  margin-left: -15px;
+  position: absolute;
+}
+.wechatpay-btn-toplogo{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    margin-top: 10%;
+    line-height: 20px;
+    font-size: 20px;
+
+}
+.wechatpay-btn-toplogo img{
+  width: 20px;
+}
+
+
+.wechatpay-pay-box{
+  width: 90%;
+  margin: 0 auto;
+  height: auto;
+  top: 10%;
+  left: 5%;
+  border: 1px solid #444;
+  z-index: 3;
+  background: #fff;
+  margin-top: 5%;
+}
+.wechatpay-pay-box ul {
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid #444444;
+}
+.wechatpay-pay-box ul li {
+  width: 33%;
+  float: left;
+  height: 40px;
+  border-right: 1px solid #444;
+  line-height: 40px;
+  position: relative;
+  background-color: #fff;
+  list-style-type: none;
+}
+.wechatpay-pay-box ul li i {
+  position: absolute;
+  /* left: 50%; */
+  /* margin-left: -10px; */
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-size: 14px;
+}
+.wechatpay-special-ul{
+  background: #ee193a;
+}
+.wechatpay-special-ul li{
+  background-color: #ee193a !important;
+}
+.wechatpay-special-ul li i{
+  color: #fff !important;
+}
+.dot-box{
+    vertical-align: middle;
+    display: inline-block;
+}
+.dot{
+        width: 4px;
+        height: 4px;
+        margin:4px 1px;
+        border-radius: 50%;
+        background: #fff;
+        margin-right: 3px;
+}
+.automatic-payments-btn{
+    margin: 3% auto;
+    width: 30% !important;
+}
+.automatic-payments-popup-box {
+  width: 90%;
+  margin: 0 auto;
+  height: auto;
+  position: fixed;
+  top: 30%;
+  left: 5%;
+  border: 1px solid #444;
+  z-index: 3;
+  background: #fff;
+}
+.automatic-payments-popup-title{
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+  font-size: 20px;
+}
+.automatic-payments-popup-input{
+   height: 20px;
+   line-height: 20px;
+   font-size: 20px;
+}
