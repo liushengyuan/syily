@@ -63,7 +63,7 @@ define([ 'app' ], function(app) {
 		.state('choose-oil-num', {
 	      url: '/choose-oil-num',
 	   	  templateUrl : 'tpls/wechat-pay.html',
-	   	  controller: 'wechatPayCtrl'
+	   	  // controller: 'wechatPayCtrl'
 	   	});
 	    hammerDefaultOptsProvider.set({
 	        recognizers: [[Hammer.Tap, {time: 250}], 
