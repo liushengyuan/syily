@@ -54,11 +54,11 @@ requirejs.config({
         welDirect: 'js/welcome/directive',
         welIdx: 'js/welcome/index',
         /*前页模块*/
-        wechatMod: 'js/wechatPay/module',
-        wechatCtrl: 'js/wechatPay/controller',
-        wechatSevr: 'js/wechatPay/service',
-        wechatDirect: 'js/wechatPay/directive',
-        wechatIdx: 'js/wechatPay/index',
+        indexMod: 'js/index/module',
+        indexCtrl: 'js/index/controller',
+        indexSevr: 'js/index/service',
+        indexDirect: 'js/index/directive',
+        indexIdx: 'js/index/index',
                
     },
     shim: {

@@ -21,7 +21,7 @@ define([ 'app' ], function(app) {
 													'</div>' + 
 												'</div>';*/
 
-	    $urlRouterProvider.otherwise("/choose-oil-num");
+	    $urlRouterProvider.otherwise("/pay-success");
 	    $stateProvider
 		/* 测试页面1*/
 		.state('tpls1', {
@@ -33,19 +33,19 @@ define([ 'app' ], function(app) {
 		.state('tpls2', {
 	      url: '/tpls2',
 	      templateUrl : 'tpls/tpls2.html',
-	      controller: 'scrollCtrl'
+	      // controller: 'scrollCtrl'
 	    }) 
 		.state('welcome', {
 	      url: '/welcome',
 	      templateUrl : 'tpls/welcome.html',
-	      controller:'welcomeCtrl',
+	      // controller:'welcomeCtrl',
 	    })
-	   	/* 支付 */
+	   	/* 主页 */
 		.state('automatic-pay', {
 	      url: '/automatic-pay',
 	      params:{stationInfo:null},
 	   	  templateUrl : 'tpls/automatic-payments.html',
-	   	  controller: 'payCtrl'
+	   	  // controller: 'payCtrl'
 	   	})
 	   	/* 油站选择 */
 		.state('gasstation-choose', {

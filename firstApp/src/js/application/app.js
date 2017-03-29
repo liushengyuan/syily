@@ -16,7 +16,7 @@ define(['angular', 'includes'], function(angular, includes){
     'ngVideo',
     'angular-gestures',
     'welModule',
-    'wechatModule',
+    'indexModule',
   ], ['$httpProvider', function ($httpProvider) {
         // 头部配置  
         $httpProvider.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded;charset=utf-8';  

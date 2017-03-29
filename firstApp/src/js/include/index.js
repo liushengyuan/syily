@@ -1,1 +1,1 @@
-define(["welIdx","wechatIdx"], function(){});
+define(["welIdx","indexIdx"], function(){});

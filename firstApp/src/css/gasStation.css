@@ -20,12 +20,15 @@ body {
 
 /*导航*/
 .banner {
-  width: 100%;
+   width: 100%;
   height: 50px;
   background: #28b46b;
   text-align: center;
   line-height: 50px;
+  position:relative;
+  z-index:2;
 }
+
 .banner .banner-left {
   font-size: 18px;
   color: #ee193a;
@@ -35,14 +38,17 @@ body {
   height: 40px;
   padding-top: 8px;
 }
+
 .banner .banner-left img {
   height: 30px;
   width: 30px;
 }
+
 .banner label {
   color: #fff;
   font-size: 18px;
 }
+
 .banner .banner-right {
   float: right;
   margin-right: 4%;
@@ -57,6 +63,7 @@ body {
   background: #ee193a;
   line-height: 30px;
 }
+
 .red-banner label {
   margin-left: 4%;
   color: #fff;
@@ -67,7 +74,7 @@ body {
   border-top: 1px solid #ccc7b0;
   border-bottom: 1px solid #ccc7b0;
   border-radius: 5px;
-  background:#28b46b;
+  background: #28b46b;
   text-align: center;
   margin-right: 5%;
   margin-top: 20px;
@@ -122,12 +129,14 @@ input select {
   width: 90%;
   padding: 0px 5%;
 }
+
 .oilNav-continter dl {
   width: 100%;
   text-align: center;
   display: inline-block;
   margin-top: 10px;
 }
+
 .oilNav-continter dt {
   display: block;
   float: left;
@@ -137,6 +146,7 @@ input select {
   margin-right: 5%;
   text-align: left;
 }
+
 .oilNav-continter dd {
   position: relative;
   display: block;
@@ -145,24 +155,24 @@ input select {
   width: 75%;
   margin: 0;
   /*div{
-   	width:107%;
-  	display:nth($displays,2);
-  	overflow:hidden;
-  	
+    width:107%;
+    display:nth($displays,2);
+    overflow:hidden;
+    
   }
   select{
-  	left:-2px;
-  	top:-2px;
-  	background:url(../img/select.png) no-repeat right top;
-  	background-position:93%;
-  	background-size:30px;
-  	width:100%;
-  	height:$height30;
-  	border:1px solid #a8a8a8;
-  	outline:none;
-  	option{
-  		outline:none;
-  	}
+    left:-2px;
+    top:-2px;
+    background:url(../img/select.png) no-repeat right top;
+    background-position:93%;
+    background-size:30px;
+    width:100%;
+    height:$height30;
+    border:1px solid #a8a8a8;
+    outline:none;
+    option{
+        outline:none;
+    }
   } */
 }
 
@@ -176,6 +186,7 @@ input select {
   border: 1px solid #aaa;
   text-shadow: none;
 }
+
 .oilSelect select {
   border-radius: 0;
   cursor: pointer;
@@ -205,10 +216,12 @@ input select {
 .my-collection {
   font: "微软雅黑";
 }
+
 .my-collection ul {
   display: inline-block;
   width: 100%;
 }
+
 .my-collection li {
   display: inline-block;
   width: 100%;
@@ -230,61 +243,75 @@ input select {
   margin-right: 5%;
   margin-left: 5%;
 }
+
 .myCollection-right .myCollection-oilname {
   font-weight: bold;
   font-size: 16px;
 }
+
 .myCollection-right .myCollection-adddress {
   font-size: 14px;
   margin-top: 5px;
   width: 95%;
 }
+
 .myCollection-right .myCollection-daistance {
   font-size: 14px  ！important;
   margin-top: 5px;
 }
+
 .myCollection-right .myCollection-daistance span {
   color: #ee193a;
 }
+
 .myCollection-right .myCollection-evaluate {
   font-size: 14px;
   margin-top: 5px;
 }
+
 .myCollection-right .myCollection-evaluate span {
   display: block;
   float: left;
   width: 40%;
 }
+
 .myCollection-right .myCollection-evaluate div {
   display: block;
   width: 60%;
   float: left;
   height: 22px;
 }
+
 .myCollection-right .myCollection-evaluate .myCollection-star0 {
   background: url(../img/my-collection-star0.png) no-repeat;
   background-size: 75%;
 }
+
 .myCollection-right .myCollection-evaluate .myCollection-star {
   background: url(../img/my-collection-star0.png) no-repeat;
   background-size: 75%;
 }
+
 .myCollection-right .myCollection-evaluate .myCollection-star1 {
   background: url(../img/my-collection-star1.png) no-repeat;
   background-size: 75%;
 }
+
 .myCollection-right .myCollection-evaluate .myCollection-star2 {
   background: url(../img/my-collection-star2.png) no-repeat;
   background-size: 75%;
 }
+
 .myCollection-right .myCollection-evaluate .myCollection-star3 {
   background: url(../img/my-collection-star3.png) no-repeat;
   background-size: 75%;
 }
+
 .myCollection-right .myCollection-evaluate .myCollection-star4 {
   background: url(../img/my-collection-star4.png) no-repeat;
   background-size: 75%;
 }
+
 .myCollection-right .myCollection-evaluate .myCollection-star5 {
   background: url(../img/my-collection-star5.png) no-repeat;
   background-size: 75%;
@@ -301,6 +328,7 @@ input select {
   font-size: 20px;
   font-weight: bolder;
 }
+
 .coupon-nospan img {
   width: 8px;
   height: 14px;
@@ -321,6 +349,7 @@ input select {
 .oilDetails-news {
   width: 100%;
 }
+
 .oilDetails-news label {
   display: block;
   padding-left: 5%;
@@ -330,11 +359,13 @@ input select {
   line-height: 25px;
   color: #fff;
 }
+
 .oilDetails-news .oilDetails-newsnr {
   width: 90%;
   padding: 0 5%;
   /* margin-top:10px; */
 }
+
 .oilDetails-news .oilDetails-newsdl {
   position: relative;
   display: inline-block;
@@ -343,6 +374,7 @@ input select {
   /* padding-left:5%; */
   margin: 5px 0;
 }
+
 .oilDetails-news .oilDetails-newsdl dt {
   margin: 0;
   background: url(../img/oilDetails-block.png) no-repeat left;
@@ -351,15 +383,18 @@ input select {
   width: 20%;
   text-align: right;
 }
+
 .oilDetails-news .oilDetails-newsdl dd {
   float: left;
   width: 70%;
   margin: 0;
 }
+
 .oilDetails-news .oilDetails-newsdl .oilDetails-phone {
   color: #1e6dc6;
   text-decoration: underline;
 }
+
 .oilDetails-news .oilDetails-newsdl span {
   top: 0px;
   right: 1%;
@@ -372,6 +407,7 @@ input select {
   text-align: left;
   vertical-align: middle;
 }
+
 .comment-star .comment-star0 {
   background: url(../img/my-collection-star0.png) no-repeat;
   display: table-cell;
@@ -380,6 +416,7 @@ input select {
   background-size: contain;
   vertical-align: middle;
 }
+
 .comment-star .comment-star1 {
   background: url(../img/my-collection-star1.png) no-repeat;
   display: table-cell;
@@ -388,6 +425,7 @@ input select {
   background-size: contain;
   vertical-align: middle;
 }
+
 .comment-star .comment-star2 {
   background: url(../img/my-collection-star2.png) no-repeat;
   display: table-cell;
@@ -396,6 +434,7 @@ input select {
   background-size: contain;
   vertical-align: middle;
 }
+
 .comment-star .comment-star3 {
   background: url(../img/my-collection-star3.png) no-repeat;
   display: table-cell;
@@ -404,6 +443,7 @@ input select {
   background-size: contain;
   vertical-align: middle;
 }
+
 .comment-star .comment-star4 {
   background: url(../img/my-collection-star4.png) no-repeat;
   display: table-cell;
@@ -412,6 +452,7 @@ input select {
   background-size: contain;
   vertical-align: middle;
 }
+
 .comment-star .comment-star5 {
   background: url(../img/my-collection-star5.png) no-repeat;
   display: table-cell;
@@ -420,6 +461,7 @@ input select {
   background-size: contain;
   vertical-align: middle;
 }
+
 .comment-star .comment-stars {
   display: table-cell;
   width: 75%;
@@ -427,16 +469,19 @@ input select {
   background-size: contain;
   vertical-align: middle;
 }
+
 .comment-star .comment-stars span {
   width: 21px;
   height: 18px;
   display: inline-block;
 }
+
 .comment-star .comment-stars .comment-stars-a {
   background: url(../img/star4.png) no-repeat;
   background-size: cover;
   background-position-x: -23px;
 }
+
 .comment-star .comment-stars .comment-stars-b {
   background: url(../img/star4.png) no-repeat;
   background-size: cover;
@@ -449,25 +494,30 @@ input select {
   overflow: hidden;
   top: 50px;
 }
+
 .gass-comment .comment-details {
   width: 100%;
   height: 88%;
   overflow: hidden;
   margin-bottom: 54px;
 }
+
 .gass-comment .comment-details .comment-details-ul {
   width: 100%;
   height: 100%;
   overflow-y: scroll;
 }
+
 .gass-comment .comment-details .comment-details-ul li {
   width: 90%;
   padding: 2% 5%;
   border-bottom: 1px solid #d7d7d7;
 }
+
 .gass-comment .comment-details .comment-details-dl {
   width: 100%;
 }
+
 .gass-comment .comment-details .comment-details-dl dd {
   width: 100%;
   display: table;
@@ -475,18 +525,21 @@ input select {
   color: #666;
   font-size: 0.9px;
 }
+
 .gass-comment .comment-details .comment-details-dl .comment-details-name label {
   display: table-cell;
   width: 100%;
   font-weight: 700;
   font-size: 1px;
 }
+
 .gass-comment .comment-details .comment-details-dl .comment-details-text span {
   display: table-cell;
   width: 25%;
   text-align: left;
   vertical-align: top;
 }
+
 .gass-comment .comment-details .comment-details-dl .comment-details-text label {
   display: table-cell;
   width: 75%;
@@ -494,6 +547,7 @@ input select {
   vertical-align: top;
   word-break: break-all;
 }
+
 .gass-comment .comment-details .comment-details-dl .comment-details-time label {
   color: #ccc;
   width: 100%;
@@ -514,11 +568,13 @@ input select {
   text-align: center;
   background: #fff;
 }
+
 .comment-button input {
   outline: none;
   border-left: none;
   border-right: none;
 }
+
 .comment-button .btn-style1 {
   border-top: 1px solid #fef3c1;
   border-bottom: 1px solid #ccc7b0;
@@ -539,17 +595,20 @@ input select {
   width: 100%;
   height: 100%;
 }
+
 .add-comment .add-comment-star {
   display: table;
   width: 90%;
   padding: 3.5% 5%;
   font-size: 0.9px;
 }
+
 .add-comment .add-comment-text {
   width: 90%;
   padding: 2% 5%;
   display: inline-block;
 }
+
 .add-comment .add-comment-text textarea {
   display: inline-block;
   width: 96%;
@@ -560,6 +619,7 @@ input select {
   background: none;
   padding: 2%;
 }
+
 .add-comment .add-comment-text .add-comment-account {
   width: 100%;
   padding: 2% 0;
@@ -567,10 +627,12 @@ input select {
   text-align: right;
   display: inline-block;
 }
+
 .add-comment .add-comment-text .add-comment-account label {
   color: #ccc;
   font-size: 0.9px;
 }
+
 .add-comment .add_newsbj {
   width: 85%;
   margin: 0 auto;
@@ -586,6 +648,7 @@ input select {
   background: #ee193a;
   text-align: left;
 }
+
 .add-comment-title label {
   color: #fff;
 }
@@ -597,6 +660,7 @@ input select {
   right: 0;
   padding-top: 4%;
 }
+
 .new_logo img {
   height: 100%;
 }
@@ -606,24 +670,29 @@ input select {
   width: 100%;
   display: inline-block;
 }
+
 .couponlist .couponlist-ul {
   width: 100%;
 }
+
 .couponlist .couponlist-ul li {
   width: 90%;
   padding: 5px 5%;
   display: inline-block;
   border-bottom: 0.6px solid #eee;
 }
+
 .couponlist .couponlist-ul li dl {
   width: 100%;
   color: #333;
   display: inline-block;
 }
+
 .couponlist .couponlist-ul li dl dt {
   width: 25%;
   float: left;
 }
+
 .couponlist .couponlist-ul li dl dd {
   width: 75%;
   float: right;
@@ -637,6 +706,7 @@ input select {
   text-align: center;
   background: #fff;
 }
+
 .transaction-record-pj input {
   border-top: 1px solid #fef3c1;
   border-left: 1px solid #fef3c1;
@@ -653,6 +723,7 @@ input select {
   line-height: 25px;
   font-size: 13px;
 }
+
 .transaction-record-pj .btn-style1 {
   border: none;
   background: #dedede;
@@ -664,12 +735,14 @@ input select {
   padding: 0px 5%;
   margin-top: 5%;
 }
+
 .wechatpay-continter dl {
   width: 100%;
   text-align: center;
   display: inline-block;
   margin-top: 10px;
 }
+
 .wechatpay-continter dt {
   display: block;
   float: left;
@@ -679,6 +752,7 @@ input select {
   margin-right: 5%;
   text-align: left;
 }
+
 .wechatpay-continter dd {
   position: relative;
   display: block;
@@ -699,6 +773,7 @@ input select {
   text-shadow: none;
   text-align: left;
 }
+
 .wechatpay-Select select {
   border-radius: 0;
   cursor: pointer;
@@ -719,6 +794,7 @@ input select {
   line-height: 23px;
   text-overflow: '';
 }
+
 .wechatpay-Select input {
   width: 96%;
   margin: 0 auto;
@@ -727,6 +803,7 @@ input select {
   outline: none;
   margin-left: 3%;
 }
+
 .wechatpay-Select .span-box {
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -735,16 +812,19 @@ input select {
   width: 87%;
   float: left;
 }
+
 .wechatpay-Select .span-box-select-yq {
   text-align: center;
   width: 100%;
   background: #ee193a;
 }
+
 .wechatpay-Select span {
   line-height: 30px;
   height: 30px;
   margin-left: 3%;
 }
+
 .wechatpay-Select img {
   width: 24px;
   float: right;
@@ -776,17 +856,20 @@ input select {
   z-index: 3;
   background: #fff;
 }
-.wechatpay-popup-title{
+
+.wechatpay-popup-title {
   border-bottom: 1px solid #444444;
   text-align: center;
   height: 70px;
   line-height: 70px;
 }
+
 .wechatpay-popup-box ul {
   width: 100%;
   height: 70px;
   border-bottom: 1px solid #444444;
 }
+
 .wechatpay-popup-box ul li {
   width: 24.7%;
   float: left;
@@ -797,6 +880,7 @@ input select {
   background-color: #fff;
   list-style-type: none;
 }
+
 .wechatpay-popup-box ul li i {
   position: absolute;
   /* left: 50%; */
@@ -829,6 +913,7 @@ input select {
 .oil-gun-select {
   background-color: darkgray !important;
 }
+
 .oil-gun-select .oil-gun-select-i {
   color: dimgrey !important;
 }
@@ -842,17 +927,21 @@ input select {
   text-align: center;
   margin-top: 25%;
 }
+
 .pay-success-box img {
   width: 100px;
 }
+
 .pay-success-box .transfer-success-img {
   width: 230px;
 }
+
 .pay-success-box p {
   font-size: 20px;
   font-weight: bolder;
   margin-top: 5%;
 }
+
 .pay-success-box .transfer-success-p {
   color: #dd3427;
   margin-top: 10%;
@@ -863,12 +952,14 @@ input select {
 .gasstation-choose-tittle {
   width: 100%;
 }
+
 .gasstation-choose-tittle .gasstation-choose-tittle-name {
   height: 35px;
   margin: 0px;
   padding: 0;
   line-height: 35px;
 }
+
 .gasstation-choose-tittle .gasstation-choose-tittle-name li {
   display: block;
   float: left;
@@ -879,6 +970,7 @@ input select {
   color: #555;
   background-color: #d3d3d3;
 }
+
 .gasstation-choose-tittle .gasstation-choose-tittle-name .gasstation-choose-tittle-active {
   background: #ee193a;
   background-position: 92%;
@@ -889,6 +981,7 @@ input select {
   width: 100%;
   /* 搜索 */
 }
+
 .gasstation-choose-content .gasstation-choose-continter li {
   position: relative;
   border-bottom: 1px solid #d7d7d7;
@@ -897,19 +990,23 @@ input select {
   min-height: 140px;
   list-style-type: none;
 }
+
 .gasstation-choose-content .gasstation-choose-continter li dl {
   height: auto;
 }
+
 .gasstation-choose-content .gasstation-choose-continter li dl dt {
   float: left;
   width: 30%;
   height: auto;
 }
+
 .gasstation-choose-content .gasstation-choose-continter li dl dt .gasstation-choose-libox {
   height: 130px;
   width: 100%;
   margin-top: 5%;
 }
+
 .gasstation-choose-content .gasstation-choose-continter li dl dt .gasstation-choose-libox .gasstation-choose-liboximg {
   width: 100%;
   height: 100%;
@@ -923,6 +1020,7 @@ input select {
   background: url(../img/jiazai_ico1.png) center center no-repeat #d1dee0;
   background-size: inherit;
 }
+
 .gasstation-choose-content .gasstation-choose-continter li dl dd {
   float: left;
   width: 65%;
@@ -930,10 +1028,12 @@ input select {
   margin: 2% 0 2% 5%;
   min-height: 100px;
 }
+
 .gasstation-choose-content .gasstation-choose-continter li dl dd .gasstation-choose-name {
   font-weight: bolder;
   font-size: 20px;
 }
+
 .gasstation-choose-content .gasstation-choose-continter li dl dd p {
   line-height: 30px;
   font-size: 16px;
@@ -945,17 +1045,21 @@ input select {
   -webkit-box-orient: vertical;
   margin: 3% 0;
 }
+
 .gasstation-choose-content .gasstation-choose-continter li dl dd p label {
   margin-right: 10%;
 }
+
 .gasstation-choose-content .gasstation-choose-continter li dl dd p label i {
   font-style: normal;
   word-break: break-all;
 }
+
 .gasstation-choose-content .gasstation-choose-continter li dl dd p img {
   width: 50px;
   float: right;
 }
+
 .gasstation-choose-content .gasstation-choose-box {
   width: 75%;
   margin-left: 5%;
@@ -963,6 +1067,7 @@ input select {
   height: 30px;
   border: 1px solid #444;
 }
+
 .gasstation-choose-content .gasstation-choose-box input {
   border: none;
   outline: none;
@@ -972,6 +1077,7 @@ input select {
   width: 96%;
   margin-left: 3%;
 }
+
 .gasstation-choose-content .gasstation-choose-btn {
   width: 15%;
   float: right;
@@ -988,15 +1094,18 @@ input select {
   height: 655px;
   background: url(../img/gaschoose-map.png) no-repeat;
 }
+
 .gasstation-choosemap .gasstation-choosemap-title {
   background: #ccc;
   height: 30px;
   line-height: 30px;
 }
+
 .gasstation-choosemap .gasstation-choosemap-title span {
   font-size: 14px;
   margin-left: 5%;
 }
+
 .gasstation-choosemap .gasstation-choosemap-title img {
   float: right;
   width: 30px;
@@ -1011,12 +1120,14 @@ input select {
   background-color: #fff;
   top: 13%;
 }
+
 .gasstation-choose-popup-box ul li {
   width: 100%;
   height: 40px;
   line-height: 40px;
   border-bottom: 1px solid #999;
 }
+
 .gasstation-choose-popup-box ul li span {
   margin-left: 3%;
 }
@@ -1028,11 +1139,13 @@ input select {
   line-height: 40px;
   border-bottom: 1px solid #000;
 }
+
 .transfer-title label {
   margin-left: 3%;
   font-size: 17px;
   font-weight: bolder;
 }
+
 .transfer-title label i {
   vertical-align: middle;
 }
@@ -1048,6 +1161,7 @@ input select {
 .transfer-dd {
   width: 70% !important;
 }
+
 .transfer-dd .transfer-Select {
   padding: 0px;
   background: #fff;
@@ -1056,6 +1170,7 @@ input select {
   text-shadow: none;
   text-align: left;
 }
+
 .transfer-dd .transfer-Select input {
   width: 96%;
   margin: 0 auto;
@@ -1069,6 +1184,7 @@ input select {
 .transfer-success-btnbox {
   margin-top: 5%;
 }
+
 .transfer-success-btnbox .transfer-success-btn {
   width: 40% !important;
   float: left;
@@ -1098,11 +1214,13 @@ input select {
   position: fixed;
   z-index: 3;
 }
+
 .popup-public .popup-public-content {
   width: 100%;
   height: 100%;
   min-height: 140px;
 }
+
 .popup-public .popup-public-content .poput_public_text {
   width: 90%;
   margin: 0 auto;
@@ -1110,18 +1228,21 @@ input select {
   height: auto;
   text-align: center;
 }
+
 .popup-public .popup-public-content .poput_public_text p {
   min-height: 100px;
   height: auto;
   display: table;
   width: 100%;
 }
+
 .popup-public .popup-public-content .poput_public_text p label {
   display: table-cell;
   vertical-align: middle;
   font-size: 16px;
   font-weight: bolder;
 }
+
 .popup-public .popup-public-content .popup_public_button {
   width: 100%;
   display: inline-block;
@@ -1129,6 +1250,7 @@ input select {
   bottom: 0;
   left: 0;
 }
+
 .popup-public .popup-public-content .popup_public_button .popup_public_button-1 {
   font-family: "SanFrancisco","Hiragino Sans GB W3","Microsoft YaHei";
   height: 2.5em;
@@ -1141,6 +1263,7 @@ input select {
   background: transparent;
   font-weight: bold;
 }
+
 .popup-public .popup-public-content .popup_public_button1 {
   width: 100%;
   display: -webkit-inline-box;
@@ -1148,6 +1271,7 @@ input select {
   bottom: 0;
   left: 0;
 }
+
 .popup-public .popup-public-content .popup_public_button1 .popup_public_button-2 {
   font-family: "SanFrancisco","Hiragino Sans GB W3","Microsoft YaHei";
   min-height: 40px;
@@ -1164,6 +1288,7 @@ input select {
   font-weight: bold;
   background: #ee193a;
 }
+
 .popup-public .popup-public-content .popup_public_button1 .popup-public-button_bor {
   border-right: 1px solid #ccc;
 }
@@ -1182,11 +1307,13 @@ input select {
   position: fixed;
   z-index: 3;
 }
+
 .popup-transfer .popup-transfer-content {
   width: 100%;
   height: auto;
   min-height: 250px;
 }
+
 .popup-transfer .popup-transfer-content .popup-transfer-title {
   width: 90%;
   margin: 0 auto;
@@ -1194,32 +1321,38 @@ input select {
   text-align: center;
   padding-top: 10%;
 }
+
 .popup-transfer .popup-transfer-content .popup-transfer-title p {
   height: auto;
   width: 100%;
   height: 40px;
   line-height: 40px;
 }
+
 .popup-transfer .popup-transfer-content .popup-transfer-title p label {
   font-size: 20px;
   font-weight: bolder;
 }
+
 .popup-transfer .popup-transfer-content .popup-transfer-box {
   width: 90%;
   margin: 0 auto;
   padding-top: 10%;
 }
+
 .popup-transfer .popup-transfer-content .popup-transfer-box p {
   font-size: 16px;
   text-align: left;
   height: 30px;
   line-height: 20px;
 }
+
 .popup-transfer .popup-transfer-content .popup-transfer-box ul {
   border: 1px solid #000;
   width: 100%;
   height: 40px;
 }
+
 .popup-transfer .popup-transfer-content .popup-transfer-box ul li {
   width: 16.352%;
   float: left;
@@ -1228,6 +1361,7 @@ input select {
   display: table;
   position: relative;
 }
+
 .popup-transfer .popup-transfer-content .popup-transfer-box ul li span {
   width: 8px;
   height: 8px;
@@ -1239,9 +1373,11 @@ input select {
   margin-left: -4px;
   border-radius: 70%;
 }
+
 .popup-transfer .popup-transfer-content .popup-transfer-box ul .popup-transfer-td {
   border-right: none;
 }
+
 .popup-transfer .popup-transfer-content .popup_public_button {
   width: 100%;
   display: inline-block;
@@ -1249,6 +1385,7 @@ input select {
   bottom: 0;
   left: 0;
 }
+
 .popup-transfer .popup-transfer-content .popup_public_button .popup_public_button-1 {
   font-family: "SanFrancisco","Hiragino Sans GB W3","Microsoft YaHei";
   height: 2.5em;
@@ -1261,6 +1398,7 @@ input select {
   background: transparent;
   font-weight: bold;
 }
+
 .popup-transfer .popup-transfer-content .popup_public_button1 {
   width: 100%;
   display: -webkit-inline-box;
@@ -1268,6 +1406,7 @@ input select {
   bottom: 0;
   left: 0;
 }
+
 .popup-transfer .popup-transfer-content .popup_public_button1 .popup_public_button-2 {
   font-family: "SanFrancisco","Hiragino Sans GB W3","Microsoft YaHei";
   min-height: 40px;
@@ -1284,6 +1423,7 @@ input select {
   font-weight: bold;
   background: #ee193a;
 }
+
 .popup-transfer .popup-transfer-content .popup_public_button1 .popup-public-button_bor {
   border-right: 1px solid #ccc;
 }
@@ -1298,11 +1438,13 @@ input select {
   border: 1px solid #444;
   z-index: 3;
 }
+
 .transfer-success-keyboard ul {
   width: 100%;
   height: 70px;
   border-bottom: 1px solid #a4a4a9;
 }
+
 .transfer-success-keyboard ul li {
   width: 33%;
   float: left;
@@ -1312,6 +1454,7 @@ input select {
   position: relative;
   background-color: #fff;
 }
+
 .transfer-success-keyboard ul li i {
   position: absolute;
   /* left: 50%; */
@@ -1322,6 +1465,7 @@ input select {
   font-size: 20px;
   font-weight: bolder;
 }
+
 .transfer-success-keyboard ul li img {
   width: 30px;
   top: 50%;
@@ -1330,21 +1474,21 @@ input select {
   margin-left: -15px;
   position: absolute;
 }
-.wechatpay-btn-toplogo{
-    width: 100%;
-    height: 20px;
-    text-align: center;
-    margin-top: 10%;
-    line-height: 20px;
-    font-size: 20px;
 
+.wechatpay-btn-toplogo {
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  margin-top: 10%;
+  line-height: 20px;
+  font-size: 20px;
 }
-.wechatpay-btn-toplogo img{
+
+.wechatpay-btn-toplogo img {
   width: 20px;
 }
 
-
-.wechatpay-pay-box{
+.wechatpay-pay-box {
   width: 90%;
   margin: 0 auto;
   height: auto;
@@ -1355,11 +1499,13 @@ input select {
   background: #fff;
   margin-top: 5%;
 }
+
 .wechatpay-pay-box ul {
   width: 100%;
   height: 40px;
   border-bottom: 1px solid #444444;
 }
+
 .wechatpay-pay-box ul li {
   width: 33%;
   float: left;
@@ -1370,6 +1516,7 @@ input select {
   background-color: #fff;
   list-style-type: none;
 }
+
 .wechatpay-pay-box ul li i {
   position: absolute;
   /* left: 50%; */
@@ -1381,31 +1528,47 @@ input select {
   font-style: normal;
   font-size: 14px;
 }
-.wechatpay-special-ul{
+
+.wechatpay-special-ul {
   background: #ee193a;
 }
-.wechatpay-special-ul li{
+
+.wechatpay-special-ul li {
   background-color: #ee193a !important;
 }
-.wechatpay-special-ul li i{
+
+.wechatpay-special-ul li i {
   color: #fff !important;
 }
-.dot-box{
-    vertical-align: middle;
-    display: inline-block;
+
+.dot-box {
+  vertical-align: middle;
+  display: inline-block;
 }
-.dot{
-        width: 4px;
-        height: 4px;
-        margin:4px 1px;
-        border-radius: 50%;
-        background: #fff;
-        margin-right: 3px;
+
+.dot {
+ width: 19px;
+ height: 3px;
+ margin: 4px 1px;
+ /* border-radius: 50%; */
+ background: #fff;
+ margin-right: 3px;
 }
-.automatic-payments-btn{
-    margin: 3% auto;
-    width: 30% !important;
+.home-menu {
+    width: 80%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 10000;
+    border-right: 1px solid #716c6c;
 }
+.automatic-payments-btn {
+  margin: 3% auto;
+  width: 30% !important;
+}
+
 .automatic-payments-popup-box {
   width: 90%;
   margin: 0 auto;
@@ -1417,14 +1580,25 @@ input select {
   z-index: 3;
   background: #fff;
 }
-.automatic-payments-popup-title{
+
+.automatic-payments-popup-title {
   text-align: center;
   height: 70px;
   line-height: 70px;
   font-size: 20px;
 }
-.automatic-payments-popup-input{
-   height: 20px;
-   line-height: 20px;
-   font-size: 20px;
+
+.automatic-payments-popup-input {
+  height: 20px;
+  line-height: 20px;
+  font-size: 20px;
+}
+.home-left-top{
+  background-color: bisque;
+  height: 16rem;
+}
+.home-left-ul-li{
+    height: 3rem;
+    line-height: 3rem;
+    overflow: hidden;
 }
