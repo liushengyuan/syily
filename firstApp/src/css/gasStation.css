@@ -1602,3 +1602,19 @@ input select {
     line-height: 3rem;
     overflow: hidden;
 }
+.home-left-div{
+  margin-left: 4%;
+  margin-top: 10%;
+}
+.home-left-dt{
+    width: 4.75rem;
+    height: 4.75rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+.home-left-dl{
+  padding-top: 6.25rem;
+  padding-bottom: 2rem;
+  padding-left: 8%;
+  height: 4rem;
+}
