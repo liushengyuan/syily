@@ -21,7 +21,7 @@ define([ 'app' ], function(app) {
 													'</div>' + 
 												'</div>';*/
 
-	    $urlRouterProvider.otherwise("/pay-success");
+	    $urlRouterProvider.otherwise("/home");
 	    $stateProvider
 		/* 测试页面1*/
 		.state('tpls1', {
@@ -40,29 +40,41 @@ define([ 'app' ], function(app) {
 	      templateUrl : 'tpls/welcome.html',
 	      // controller:'welcomeCtrl',
 	    })
-	   	/* 主页 */
-		.state('automatic-pay', {
-	      url: '/automatic-pay',
+	   	/* 名片 */
+		.state('card', {
+	      url: '/card',
 	      params:{stationInfo:null},
-	   	  templateUrl : 'tpls/automatic-payments.html',
+	   	  templateUrl : 'tpls/card.html',
 	   	  // controller: 'payCtrl'
 	   	})
-	   	/* 油站选择 */
-		.state('gasstation-choose', {
-	      url: '/gasstation-choose',
-	   	  templateUrl : 'tpls/gasstation-choose.html',
+	   	/* 文本 网页 */
+		.state('text-card', {
+	      url: '/text-card',
+	   	  templateUrl : 'tpls/text.html',
 	   	  // controller: 'tagFriendCtrl'
 	   	})
-	   	/* 支付成功 */
-		.state('pay-success', {
-	      url: '/pay-success',
-	   	  templateUrl : 'tpls/pay-success.html',
-	   	  // controller: 'tagFriendCtrl'
+	   	/* 主页 */
+		.state('home', {
+	      url: '/home',
+	   	  templateUrl : 'tpls/home.html',
+	   	  controller: 'cardCtrl'
 	   	})
-	   	/* 选择油面号 */
-		.state('choose-oil-num', {
-	      url: '/choose-oil-num',
-	   	  templateUrl : 'tpls/wechat-pay.html',
+	   	/* app */
+		.state('app', {
+	      url: '/app',
+	   	  templateUrl : 'tpls/app.html',
+	   	  // controller: 'wechatPayCtrl'
+	   	})
+	   	/*sms*/
+	   	.state('sms', {
+	      url: '/sms',
+	   	  templateUrl : 'tpls/sms.html',
+	   	  // controller: 'wechatPayCtrl'
+	   	})
+	   	/*phone*/
+	   	.state('phone', {
+	      url: '/phone',
+	   	  templateUrl : 'tpls/phone.html',
 	   	  // controller: 'wechatPayCtrl'
 	   	});
 	    hammerDefaultOptsProvider.set({

@@ -48,7 +48,12 @@ body {
   color: #fff;
   font-size: 18px;
 }
-
+.scanning{
+    color: #fff;
+    font-size: 18px;
+    float: right;
+    margin-right: 5%;
+}
 .banner .banner-right {
   float: right;
   margin-right: 4%;
@@ -733,33 +738,7 @@ input select {
 .wechatpay-continter {
   width: 90%;
   padding: 0px 5%;
-  margin-top: 5%;
-}
-
-.wechatpay-continter dl {
-  width: 100%;
-  text-align: center;
-  display: inline-block;
-  margin-top: 10px;
-}
-
-.wechatpay-continter dt {
-  display: block;
-  float: left;
-  width: 25%;
-  line-height: 30px;
-  font-size: 14px;
-  margin-right: 5%;
-  text-align: left;
-}
-
-.wechatpay-continter dd {
-  position: relative;
-  display: block;
-  overflow: hidden;
-  float: left;
-  width: 70%;
-  margin: 0;
+  margin-top: 10%;
 }
 
 .wechatpay-Select {
@@ -803,6 +782,12 @@ input select {
   outline: none;
   margin-left: 3%;
 }
+.wechatpay-Select textarea {
+ height: 120px;
+ width: 100%;
+ border: none;
+ outline: 0;
+}
 
 .wechatpay-Select .span-box {
   white-space: nowrap;
@@ -825,11 +810,11 @@ input select {
   margin-left: 3%;
 }
 
-.wechatpay-Select img {
+/* .wechatpay-Select img {
   width: 24px;
   float: right;
   margin-top: 3px;
-}
+} */
 
 .wechatpay-span {
   width: 46%;
@@ -1120,18 +1105,15 @@ input select {
   background-color: #fff;
   top: 13%;
 }
-
-.gasstation-choose-popup-box ul li {
-  width: 100%;
-  height: 40px;
-  line-height: 40px;
-  border-bottom: 1px solid #999;
+.gasstation-choose-popup-box div{
+    margin-left: 10%;
+    width: 80%;
+    height: 100%;
 }
-
-.gasstation-choose-popup-box ul li span {
-  margin-left: 3%;
+.gasstation-choose-popup-box div textarea{
+    height: 80%;
+    width: 100%;
 }
-
 /* 转账 */
 .transfer-title {
   width: 100%;
@@ -1155,11 +1137,15 @@ input select {
 }
 
 .transfer-dt {
-  width: 25% !important;
+  width: 30% !important;
+  margin-top: 13%;
+  margin-left: 4%;
 }
 
 .transfer-dd {
-  width: 70% !important;
+    width: 70% !important;
+    float: right;
+    margin-top: -8%;
 }
 
 .transfer-dd .transfer-Select {
@@ -1596,6 +1582,8 @@ input select {
 .home-left-top{
   background-color: bisque;
   height: 16rem;
+  background: url(../img/top2.png) no-repeat;
+  background-size: cover;
 }
 .home-left-ul-li{
     height: 3rem;
@@ -1611,10 +1599,83 @@ input select {
     height: 4.75rem;
     border-radius: 50%;
     border: 1px solid #fff;
+    background: url(../img/pay-succeed.png) no-repeat;
+    background-size: cover;
+    float: left;
 }
 .home-left-dl{
   padding-top: 6.25rem;
   padding-bottom: 2rem;
   padding-left: 8%;
   height: 4rem;
+}
+.home-left-dd{
+    display: block;
+    /* left: 3.3rem; */
+    margin-left: 6.3rem;
+    font-size: 22px;
+}
+.home-left-dd-li{
+  list-style-type:none;
+  font-size: 14px;
+  margin-top: 0.5rem;
+  margin-left: 0.8rem;
+}
+.main-left{
+    width: 4.75rem;
+    height: 4.75rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background-size: cover;
+    margin-left: 13%; 
+}
+.main-right{
+    width: 4.75rem;
+    height: 4.75rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background-size: cover;
+    margin-left: 10%; 
+}
+.home-left{
+    width: 50%;
+    float: right;
+    /* margin-top: 20%; */
+}
+.home-div{
+  margin-top: 20%;
+} 
+.main-right-cencer{
+  margin-left: 16%;
+  margin-top: 3%;
+}
+.home-div-top{
+   margin-top: 15%;
+}
+.home-left dd{
+  margin-left: 26%;
+  margin-top: 5%;
+}
+.beizhu{
+  margin-top: 80%;
+  margin-left: 10%;
+  width: 89%;
+  font-size: 13px;
+}
+.app-date dt{
+  width: 70%;
+  margin-top: 10%;
+
+}
+.app-date dd{
+  width: 90%;
+  margin-top: 4%;
+  margin-left: 10%;
+}
+.setting{
+    height: 100%;
+    position: fixed;
+    background-color: #999;
+    width: 100%;
+    opacity: 0.3;
 }

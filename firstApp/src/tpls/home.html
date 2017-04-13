@@ -1,0 +1,89 @@
+<!-- 支付成功 -->
+<div class="banner">
+  <div class="banner-left" ng-click="setting=!setting">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+  </div>
+  <label>syily</label>
+  <div class="scanning">
+    扫描
+  </div>
+</div>
+<div class="setting" ng-click="setting=!setting" ng-show="setting"></div>
+
+<div class="wechatpay-continter">
+   <div class="home-div-top">
+     <dl  class="home-left" ui-sref="text-card">
+       <dt class="main-left" style="background: url('../img/browser.png') no-repeat;background-size: cover;">
+         <dd>
+           网址
+         </dd>
+       </dt>
+     </dl>
+     <dl ui-sref="sms">
+       <dt class="main-right" style="background: url('../img/mms.png') no-repeat;background-size: cover;">
+         <dd class="main-right-cencer">
+           短信
+         </dd>
+       </dt>
+     </dl>
+   </div>
+   <div class="home-div">
+     <dl  class="home-left" ui-sref="text-card">
+       <dt class="main-left" style="background: url('../img/type.png') no-repeat;background-size: cover;">
+         <dd>
+           文本
+         </dd>
+       </dt>
+     </dl>
+     <dl ui-sref="sms">
+       <dt class="main-right" style="background: url('../img/twelvekeydialer.png') no-repeat;background-size: cover;">
+         <dd class="main-right-cencer">
+           电话
+         </dd>
+       </dt>
+     </dl>
+   </div>
+   <div class="home-div">
+     <dl  class="home-left" ui-sref="card">
+       <dt class="main-left" style="background: url('../img/card.png') no-repeat;background-size: cover;">
+         <dd>
+           名片
+         </dd>
+       </dt>
+     </dl>
+     <dl ui-sref="app">
+       <dt class="main-right" style="background: url('../img/apple-app-store-vector-icon.png') no-repeat;background-size: cover;">
+         <dd class="main-right-cencer">
+           app
+         </dd>
+       </dt>
+     </dl>
+   </div>
+
+</div>
+
+
+<div class="home-menu" ng-show="setting">
+  <div class="home-left-top">
+    <dl class="home-left-dl">
+      <dt class="home-left-dt">
+      </dt>
+      <dd class="home-left-dd">
+         测试账号
+         <li class="home-left-dd-li">这里是个性签名</li>
+      </dd>
+    </dl>
+  </div>
+  <div class="home-left-div">
+    <ul>
+    <li class="home-left-ul-li"> <i class="icon-jianyi"></i>  建议反馈</li>
+      <li class="home-left-ul-li"> <i class="icon-gengxin"></i>  检测更新</li>
+      <li class="home-left-ul-li"><i class="icon-fenxiang"></i>  分享好友</li>
+      <li class="home-left-ul-li"><i class="icon-hongbao"></i>  打赏</li>
+    </ul>
+  </div>
+</div>
+
+

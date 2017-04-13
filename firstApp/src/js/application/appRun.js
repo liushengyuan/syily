@@ -10,6 +10,11 @@ define([ 'app',"jweixin" ], function(app,wx) {
 			function(event, toState, toParams, fromState, fromParams){ 
 			    RPCService.scrollerState.TabID = null;
 			    RPCService.scrollerState.TabArray = [];
+			    var pathNow = {
+                    state:toState.name,
+                    params:toParams
+                }
+                
 			}
 		);
 

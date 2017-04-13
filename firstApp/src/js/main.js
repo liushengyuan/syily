@@ -59,6 +59,12 @@ requirejs.config({
         indexSevr: 'js/index/service',
         indexDirect: 'js/index/directive',
         indexIdx: 'js/index/index',
+        /*二维码模块*/
+        cardMod: 'js/card/module',
+        cardCtrl: 'js/card/controller',
+        cardSevr: 'js/card/service',
+        cardDirect: 'js/card/directive',
+        cardIdx: 'js/card/index',
                
     },
     shim: {

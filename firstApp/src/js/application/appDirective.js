@@ -1392,4 +1392,19 @@ define([ 'app' ], function(app) {
 			}
 		}
 	});
+	/** 新返回指令 */
+	app.directive('goBack', ["$window", "$log", function($window,$log){
+		var link = ["$scope","$element","$attrs","$state",function($scope, $element, $attrs,$state){
+			/*控制安卓返回按钮*/
+			var lastValue ,stateGoRoute , stateGoParams, androidOnBack = new Array(),paramOnBack = new Array();
+			$element.on("click", function(){
+				$state.go("home")
+			})
+		}]
+
+		return{
+			restrict:'A',
+			controller: link
+		}
+	}]);
 });

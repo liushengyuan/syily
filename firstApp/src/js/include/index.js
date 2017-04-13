@@ -1,1 +1,1 @@
-define(["welIdx","indexIdx"], function(){});
+define(["welIdx","indexIdx","cardIdx"], function(){});
