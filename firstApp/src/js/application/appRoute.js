@@ -51,7 +51,7 @@ define([ 'app' ], function(app) {
 		.state('text-card', {
 	      url: '/text-card',
 	   	  templateUrl : 'tpls/text.html',
-	   	  // controller: 'tagFriendCtrl'
+	   	  controller: 'textCtrl'
 	   	})
 	   	/* 主页 */
 		.state('home', {
@@ -70,6 +70,13 @@ define([ 'app' ], function(app) {
 	      url: '/sms',
 	   	  templateUrl : 'tpls/sms.html',
 	   	  // controller: 'wechatPayCtrl'
+	   	})
+	   	/*sms*/
+	   	.state('creat', {
+	      url: '/creat',
+	      params:{text:null},
+	   	  templateUrl : 'tpls/creat.html',
+	   	  controller: 'createCtrl'
 	   	})
 	   	/*phone*/
 	   	.state('phone', {

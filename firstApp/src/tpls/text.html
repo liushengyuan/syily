@@ -3,7 +3,7 @@
      <img src="../img/return.png"/>
   </div>
   <label>文本</label>
-  <div class="scanning">
+  <div class="scanning" ng-click="goCreate()">
 	生成
   </div>
 </div>		
@@ -11,7 +11,7 @@
 <!-- 全部油站及区域弹窗 -->
 <div class="gasstation-choose-popup-box">
 	<div>
-		<textarea name="search"></textarea>
+		<textarea name="search" ng-model="text"></textarea>
 	</div>
 </div>
 <div class="beizhu">

@@ -29,7 +29,10 @@ angular.module('monospaced.qrcode', [])
 
     return {
       restrict: 'E',
-      template: '<canvas class="qrcode"></canvas>',
+      template: '<img ng-if="image" src="{{image}}" style="position: absolute;width: 30px; height: 30px;z-index:101;margin-left: 5rem;margin-top: 5rem;" /><canvas class="qrcode"></canvas>',
+      scope: {  
+                image: '='  
+            },  
       link: function(scope, element, attrs) {
         var domElement = element[0],
             $canvas = element.find('canvas'),
@@ -54,6 +57,9 @@ angular.module('monospaced.qrcode', [])
             setErrorCorrectionLevel = function(value) {
               errorCorrectionLevel = value in levels ? value : 'M';
             },
+
+          
+
             setData = function(value) {
               if (!value) {
                 return;

@@ -185,7 +185,7 @@ module.exports = function(grunt) {
     },
   	connect: {
         options: {
-          port: 8000,
+          port: 8001,
           hostname: '*', //默认就是这个值，可配置为本机某个 IP，localhost 或域名
           livereload: 35725  //声明给 watch 监听的端口
         },
@@ -193,7 +193,7 @@ module.exports = function(grunt) {
         server: {
           options: {
             open: {
-              target: 'http://localhost:8000/index.html' // target url to open
+              target: 'http://localhost:8001/index.html' // target url to open
               
             }, //自动打开网页 http://
             base: [
@@ -211,8 +211,8 @@ module.exports = function(grunt) {
         server2: {
             proxies: [{
                 context: '/d/dwr',
-                host: '192.168.1.134',//http://111.160.124.226:7780 http://192.168.1.105:8889  宁河内网服务器 ip：192.168.1.105  端口8888 192.168.1.164 9090
-                port: 80,
+                host: 'localhost',//http://111.160.124.226:7780 http://192.168.1.105:8889  宁河内网服务器 ip：192.168.1.105  端口8888 192.168.1.164 9090
+                port: 8080,
                 https: false,
                 xforward: false,
                 

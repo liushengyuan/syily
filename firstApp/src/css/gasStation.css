@@ -1109,6 +1109,7 @@ input select {
     margin-left: 10%;
     width: 80%;
     height: 100%;
+    text-align: center;
 }
 .gasstation-choose-popup-box div textarea{
     height: 80%;
