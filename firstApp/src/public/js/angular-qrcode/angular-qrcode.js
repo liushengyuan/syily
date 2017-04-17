@@ -14,14 +14,26 @@ angular.module('monospaced.qrcode', [])
           'Q': 'Quartile',
           'H': 'High'
         },
-        draw = function(context, qr, modules, tile ,background, foreground) {
+        draw = function(context, qr, modules, tile ,background, foreground,canvas) {
+          /*添加图片*/
+          var bgImage=new Image();
+          bgImage.src="../img/t4.jpg";
+          var pat=context.createPattern(bgImage,"no-repeat");
           for (var row = 0; row < modules; row++) {
             for (var col = 0; col < modules; col++) {
               var w = (Math.ceil((col + 1) * tile) - Math.floor(col * tile)),
                   h = (Math.ceil((row + 1) * tile) - Math.floor(row * tile));
-
-              context.fillStyle = qr.isDark(row, col) ? background : foreground;
-              context.fillRect(Math.round(col * tile),
+              /*颜色渐变*/
+              // var my_gradient=canvas.getContext('2d').createLinearGradient(0,0,170,0);
+              // my_gradient.addColorStop(0,"black");
+              // my_gradient.addColorStop(0.5,"red");
+              // my_gradient.addColorStop(0,"black");
+              // ../img/gaschoose-map.png
+              
+              context.fillStyle=qr.isDark(row, col)?pat:foreground;
+              // ctx.fill();
+              //context.fillStyle = qr.isDark(row, col)?pat:foreground;//渐变颜色qr.isDark(row, col)?my_gradient:foreground;//背景切换qr.isDark(row, col) ? background : foreground;
+               context.fillRect(Math.round(col * tile),
                                Math.round(row * tile), w, h);
             }
           }
@@ -53,6 +65,7 @@ angular.module('monospaced.qrcode', [])
             $img,
             background=background?background:"#ffffff",
             foreground=foreground?foreground:"#000000",
+           
             setVersion = function(value) {
               version = Math.max(1, Math.min(parseInt(value, 10), 40)) || 5;
             },
@@ -118,7 +131,7 @@ angular.module('monospaced.qrcode', [])
               }
 
               if (canvas2D) {
-                draw(context, qr, modules, tile,background,foreground);
+                draw(context, qr, modules, tile,background,foreground,canvas);
 
                 if (download) {
                   domElement.href = canvas.toDataURL('image/png');
