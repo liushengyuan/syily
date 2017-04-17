@@ -14,13 +14,13 @@ angular.module('monospaced.qrcode', [])
           'Q': 'Quartile',
           'H': 'High'
         },
-        draw = function(context, qr, modules, tile) {
+        draw = function(context, qr, modules, tile ,background, foreground) {
           for (var row = 0; row < modules; row++) {
             for (var col = 0; col < modules; col++) {
               var w = (Math.ceil((col + 1) * tile) - Math.floor(col * tile)),
                   h = (Math.ceil((row + 1) * tile) - Math.floor(row * tile));
 
-              context.fillStyle = qr.isDark(row, col) ? '#000' : '#fff';
+              context.fillStyle = qr.isDark(row, col) ? background : foreground;
               context.fillRect(Math.round(col * tile),
                                Math.round(row * tile), w, h);
             }
@@ -51,6 +51,8 @@ angular.module('monospaced.qrcode', [])
             tile,
             qr,
             $img,
+            background=background?background:"#ffffff",
+            foreground=foreground?foreground:"#000000",
             setVersion = function(value) {
               version = Math.max(1, Math.min(parseInt(value, 10), 40)) || 5;
             },
@@ -84,6 +86,12 @@ angular.module('monospaced.qrcode', [])
               tile = size / modules;
               canvas.width = canvas.height = size;
             },
+            setBackground = function(value) {
+             
+            },
+            setForeground = function(value) {
+              
+            },
             render = function() {
               if (!qr) {
                 return;
@@ -110,7 +118,7 @@ angular.module('monospaced.qrcode', [])
               }
 
               if (canvas2D) {
-                draw(context, qr, modules, tile);
+                draw(context, qr, modules, tile,background,foreground);
 
                 if (download) {
                   domElement.href = canvas.toDataURL('image/png');
@@ -189,6 +197,25 @@ angular.module('monospaced.qrcode', [])
           }
 
           href = value;
+          render();
+        });
+
+        attrs.$observe('background', function(value) {
+          if (!value) {
+            background="#fff";
+          }
+
+          background = value;
+
+          render();
+        });
+
+        attrs.$observe('foreground', function(value) {
+          if (!value) {
+            foreground="#000";
+          }
+
+          foreground = value;
           render();
         });
       }
