@@ -12,10 +12,15 @@
 <div class="gasstation-choose-popup-box">
   <div>
 
-    <qrcode  text="qrcodeString" data="{{text}}" size="200"  version="5"  image="image" foreground="#fff" background="#551A8B"></qrcode> 
+    <qrcode  text="qrcodeString" data="{{text}}" size="139"  version="7"  image="image" foreground="{{foreground}}" background="{{background}}" errorCorrectionLevel="H" imgurl="{{imgUrl}}" mygradient="{{mygradient}}"></qrcode> 
+   <!--  ../img/t4.jpg -->
   </div>
 </div>
 
 <div class="beizhu">
 	<span>*温馨提示：在文本中请不要输入特殊字符，特殊字符可能会导致二维码生成失败哦。</span>
+</div>
+
+<div>
+  <span ng-click="colorGrad()">颜色渐变</span> <span ng-click="imgGrade()"> 七彩</span><span  ng-click="normal()">正常</span><span ng-click="colorChange()">变色</span><span ng-click="logoChange()">logo</span>
 </div>

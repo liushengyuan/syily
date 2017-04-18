@@ -14,26 +14,32 @@ angular.module('monospaced.qrcode', [])
           'Q': 'Quartile',
           'H': 'High'
         },
-        draw = function(context, qr, modules, tile ,background, foreground,canvas) {
+        draw = function(context, qr, modules, tile ,background, foreground,imgurl,mygradient,canvas) {
           /*添加图片*/
           var bgImage=new Image();
-          bgImage.src="../img/t4.jpg";
+          var img = imgurl;
+          bgImage.src=img;
           var pat=context.createPattern(bgImage,"no-repeat");
           for (var row = 0; row < modules; row++) {
             for (var col = 0; col < modules; col++) {
               var w = (Math.ceil((col + 1) * tile) - Math.floor(col * tile)),
                   h = (Math.ceil((row + 1) * tile) - Math.floor(row * tile));
-              /*颜色渐变*/
-              // var my_gradient=canvas.getContext('2d').createLinearGradient(0,0,170,0);
-              // my_gradient.addColorStop(0,"black");
-              // my_gradient.addColorStop(0.5,"red");
-              // my_gradient.addColorStop(0,"black");
-              // ../img/gaschoose-map.png
-              
-              context.fillStyle=qr.isDark(row, col)?pat:foreground;
-              // ctx.fill();
-              //context.fillStyle = qr.isDark(row, col)?pat:foreground;//渐变颜色qr.isDark(row, col)?my_gradient:foreground;//背景切换qr.isDark(row, col) ? background : foreground;
-               context.fillRect(Math.round(col * tile),
+              // 添加图片
+              if(img){
+                context.fillStyle=qr.isDark(row, col)?pat:foreground;
+              }else{
+                //颜色渐变
+                if(mygradient==1){
+                  var gradient=canvas.getContext('2d').createLinearGradient(0,0,170,0);
+                  gradient.addColorStop(0,"black");
+                  gradient.addColorStop(0.5,"red");
+                  gradient.addColorStop(0,"black");
+                  context.fillStyle = qr.isDark(row, col)?gradient:foreground;
+                }else{
+                  context.fillStyle=qr.isDark(row, col) ? background : foreground;
+                }
+              }
+              context.fillRect(Math.round(col * tile),
                                Math.round(row * tile), w, h);
             }
           }
@@ -41,7 +47,7 @@ angular.module('monospaced.qrcode', [])
 
     return {
       restrict: 'E',
-      template: '<img ng-if="image" src="{{image}}" style="position: absolute;width: 30px; height: 30px;z-index:101;margin-left: 5rem;margin-top: 5rem;" /><canvas class="qrcode"></canvas>',
+      template: '<img ng-if="image" src="{{image}}" style="position: absolute;width: 20px; height: 20px;z-index:101;margin-left: 3.8rem;margin-top: 4rem;" /><canvas class="qrcode"></canvas>',
       scope: {  
                 image: '='  
             },  
@@ -63,9 +69,10 @@ angular.module('monospaced.qrcode', [])
             tile,
             qr,
             $img,
-            background=background?background:"#ffffff",
-            foreground=foreground?foreground:"#000000",
-           
+            imgurl,
+            background,
+            foreground,
+            mygradient,
             setVersion = function(value) {
               version = Math.max(1, Math.min(parseInt(value, 10), 40)) || 5;
             },
@@ -131,7 +138,7 @@ angular.module('monospaced.qrcode', [])
               }
 
               if (canvas2D) {
-                draw(context, qr, modules, tile,background,foreground,canvas);
+                draw(context, qr, modules, tile,background,foreground,imgurl,mygradient,canvas);
 
                 if (download) {
                   domElement.href = canvas.toDataURL('image/png');
@@ -216,6 +223,7 @@ angular.module('monospaced.qrcode', [])
         attrs.$observe('background', function(value) {
           if (!value) {
             background="#fff";
+            render();
           }
 
           background = value;
@@ -226,11 +234,32 @@ angular.module('monospaced.qrcode', [])
         attrs.$observe('foreground', function(value) {
           if (!value) {
             foreground="#000";
+            render();
           }
 
           foreground = value;
           render();
         });
+
+        attrs.$observe('imgurl', function(value) {
+          if (!value) {
+            imgurl="";
+          }
+
+          imgurl = value;
+          render();
+        });
+
+        attrs.$observe('mygradient', function(value) {
+          if (!value) {
+            mygradient=0;
+            
+          }
+
+          mygradient = value;
+          render();
+        });
+
       }
     };
   }]);
