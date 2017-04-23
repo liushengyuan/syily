@@ -12,15 +12,45 @@
 <div class="gasstation-choose-popup-box">
   <div>
 
-    <qrcode  text="qrcodeString" data="{{text}}" size="139"  version="7"  image="image" foreground="{{foreground}}" background="{{background}}" errorCorrectionLevel="H" imgurl="{{imgUrl}}" mygradient="{{mygradient}}"></qrcode> 
+    <qrcode  text="qrcodeString" data="{{text}}" size="200"  version="7"  image="image" foreground="{{foreground}}" background="{{background}}" errorCorrectionLevel="L" imgurl="{{imgUrl}}" mygradient="{{mygradient}}" background2="{{background2}}"></qrcode> 
    <!--  ../img/t4.jpg -->
   </div>
 </div>
 
-<div class="beizhu">
-	<span>*温馨提示：在文本中请不要输入特殊字符，特殊字符可能会导致二维码生成失败哦。</span>
+<div class="btn-list">
+  <span  ng-click="change(0)">渐变</span> <span ng-click="change(1)"> 前景图</span><span  ng-click="change(2)">正常</span><span ng-click="change(3)">变色</span><span ng-click="change(4)">logo</span>
+</div>
+<div class="footer select-size1" ng-show="selectStyle==0">
+  <ul>
+      <li ng-click="conChange(1,'#ff0000','#228b22','#fff')"><span>红绿</span></li>
+      <li ng-click="conChange(1,'#ff0000','#0000cd','#fff')"><span>红蓝</span></li>
+      <li ng-click="conChange(1,'#0000cd','#000000','#fff')"><span>蓝黑</span></li>
+      <li ng-click="conChange(1,'#0000cd','#228b22','#fff')"><span>蓝绿</span></li>
+      <li ng-click="conChange(1,'#ff0000','#000000','#fff')"><span>红黑</span></li>
+  </ul>
+</div>
+<div class="footer select-size2" ng-show="selectStyle==1">
+  <ul>
+      <li ng-click="conChange(0,fasle,fasle,fasle,'../img/t4.png')"><span>七彩</span></li>
+      <li ng-click="conChange(0,fasle,fasle,fasle,'../img/timg.png')"><span>狗狗</span></li>
+      <li ng-click="conChange(0,fasle,fasle,fasle,'../img/t2.png')"><span>炫彩</span></li>
+      <li ><span>自定义</span></li>
+  </ul>
 </div>
 
-<div>
-  <span ng-click="colorGrad()">颜色渐变</span> <span ng-click="imgGrade()"> 七彩</span><span  ng-click="normal()">正常</span><span ng-click="colorChange()">变色</span><span ng-click="logoChange()">logo</span>
+<div class="footer select-size4" ng-show="selectStyle==3">
+  <ul>
+      <li ng-click="conChange(0,'#ff0000',fasle,'#fff')"><span>红</span></li>
+      <li ng-click="conChange(0,'#0000cd',fasle,'#fff')"><span>蓝</span></li>
+      <li ng-click="conChange(0,'#228b22',fasle,'#fff')"><span>绿</span></li>
+  </ul>
+</div>
+<div class="footer select-size5" ng-show="selectStyle==4">
+  <ul>
+      <li ng-click="changeLogo(0)"><span>微信</span></li>
+      <li ng-click="changeLogo(1)"><span>QQ</span></li>
+      <li><span>自定义</span></li>
+  </ul>
+</div>
+<div class="module" ng-hide="selectStyle==-1" ng-click="selectStyle=-1"> 
 </div>

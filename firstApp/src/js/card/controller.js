@@ -13,40 +13,50 @@ define(["cardMod"], function(module){
  /* 生成二维码*/
    module.controller('createCtrl',
   	['$scope','$state','md5','$stateParams','$window',
-  	'globalContants','$timeout','RPCService', 'PullToRefreshService', 'RPCService',
+  	'globalContants','$timeout','RPCService', 'PullToRefreshService', 'RPCService','cardService',
   	function($scope,$state,md5,$stateParams,
-  		$window,globalContants,$timeout,RPCService, PullToRefreshService,RPCService){
+  		$window,globalContants,$timeout,RPCService, PullToRefreshService,RPCService,cardService){
         /*基础参数*/
       	$scope.text = $stateParams.text?$stateParams.text:'nihao';
-        
-        //颜色渐变
-        $scope.colorGrad = function(){
-          $scope.mygradient =1;
-          $scope.imgUrl = "";
+        $scope.mygradient =0;//颜色渐变控制
+        $scope.imgUrl = "";//图片背景控制
+        $scope.image = "";//logo控制
+        $scope.foreground = "#fff";//前景色控制
+        $scope.background ="#000";//背景色控制
+        $scope.background2 ="#000";
+        $scope.selectStyle = -1;
+        //点击logo 正常 等选项
+        $scope.change =function(e,f){
+          $scope.selectStyle = e;
+          if(e==2){
+            $scope.mygradient =0;
+            $scope.imgUrl = "";
+            $scope.image = "";
+            $scope.foreground = "#fff";
+            $scope.background ="#000";
+          }
         }
-        //正常
-        $scope.normal = function(){
-          $scope.mygradient =0;
-          $scope.imgUrl = "";
-          $scope.image = "";
-          $scope.foreground = "#fff";
-          $scope.background ="#000";
+        //具体选择某一项  比如蓝绿
+        $scope.conChange = function(mygradient,background,background2,foreground,imgUrl){
+          $scope.selectStyle = -1;
+          $scope.mygradient = mygradient?mygradient:0;
+          $scope.imgUrl = imgUrl?imgUrl:"";
+          $scope.foreground = foreground?foreground:"#fff";
+          $scope.background =background?background:"#000";
+          $scope.background2 =background2?background2:"#000";
+          console.log($scope.imgUrl)
         }
-        //七彩
-        $scope.imgGrade = function(){
-          $scope.imgUrl = "../img/t4.jpg";
+        //logo 选择
+        $scope.changeLogo = function(e){
+          $scope.selectStyle = -1;
+          if(e==0){
+            $scope.image = "../img/wx.png";//logo控制
+          }else if (e==1){
+            $scope.image = "../img/qq.png";//logo控制
+          }
+          
         }
-        //logo
-        $scope.logoChange = function(){
-          $scope.image = "../img/top2.png";
-        }
-        //变色
-        $scope.colorChange = function(){
-          $scope.foreground = "#fff";
-          $scope.background ="#551A8B";
-          $scope.mygradient =0;
-          $scope.imgUrl = "";
-        }
+       
     }
  ])
    /*文本二维码*/

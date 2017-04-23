@@ -1103,7 +1103,7 @@ input select {
   height: 205px;
   position: fixed;
   background-color: #fff;
-  top: 13%;
+  top: 19%;
 }
 .gasstation-choose-popup-box div{
     margin-left: 10%;
@@ -1679,4 +1679,69 @@ input select {
     background-color: #999;
     width: 100%;
     opacity: 0.3;
+}
+.btn-span{
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 2rem;
+}
+.btn-list{
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 1rem;
+  margin-left: 2%;
+  margin-right: 3%;
+  width: 90%;
+}
+.btn-list span{
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 10%;
+}
+.footer{
+    font-size: 12px;
+    font-weight: 700;
+    /* margin-left: 2rem; */
+    width: 5rem;
+    position: fixed;
+    bottom: 2rem;
+    text-align: center;
+    z-index: 101;
+}
+
+.footer ul{
+  background-color: #ccc4c4;
+}
+
+.footer ul li{
+    position: relative;
+    margin-bottom: 1rem;
+    line-height: 35px;
+    background-color: #bb5555;
+    list-style:none;
+}
+.footer ul li span{
+  line-height: 35px;
+}
+.select-size1{
+  margin-left: 3%;
+}
+.select-size2{
+  margin-left: 20%;
+}
+.select-size3{
+  margin-left: 36%;
+}
+.select-size4{
+  margin-left: 54%;
+}
+.select-size5{
+  margin-left: 67%;
+}
+.module{
+  height: 100%;
+  position: fixed;
+  background-color: #999;
+  width: 100%;
+  opacity: 0;
 }

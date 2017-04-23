@@ -14,40 +14,52 @@ angular.module('monospaced.qrcode', [])
           'Q': 'Quartile',
           'H': 'High'
         },
-        draw = function(context, qr, modules, tile ,background, foreground,imgurl,mygradient,canvas) {
+        bgImage=new Image();
+        draw = function(context, qr, modules, tile ,background, foreground,imgurl,mygradient,canvas,background2) {
           /*添加图片*/
-          var bgImage=new Image();
           var img = imgurl;
-          bgImage.src=img;
-          var pat=context.createPattern(bgImage,"no-repeat");
-          for (var row = 0; row < modules; row++) {
-            for (var col = 0; col < modules; col++) {
-              var w = (Math.ceil((col + 1) * tile) - Math.floor(col * tile)),
-                  h = (Math.ceil((row + 1) * tile) - Math.floor(row * tile));
-              // 添加图片
-              if(img){
-                context.fillStyle=qr.isDark(row, col)?pat:foreground;
-              }else{
-                //颜色渐变
-                if(mygradient==1){
-                  var gradient=canvas.getContext('2d').createLinearGradient(0,0,170,0);
-                  gradient.addColorStop(0,"black");
-                  gradient.addColorStop(0.5,"red");
-                  gradient.addColorStop(0,"black");
-                  context.fillStyle = qr.isDark(row, col)?gradient:foreground;
+          bgImage.src=imgurl;
+          var pat="";
+          if(!imgurl){
+            forother();
+            return;
+          }
+          bgImage.onload = function(){
+            pat=context.createPattern(bgImage,"no-repeat");
+            forother();
+          }
+
+          function forother(){
+            for (var row = 0; row < modules; row++) {
+              for (var col = 0; col < modules; col++) {
+                var w = (Math.ceil((col + 1) * tile) - Math.floor(col * tile)),
+                    h = (Math.ceil((row + 1) * tile) - Math.floor(row * tile));
+                // 添加图片
+                if(img){
+                  context.fillStyle=qr.isDark(row, col)?pat:foreground;
                 }else{
-                  context.fillStyle=qr.isDark(row, col) ? background : foreground;
+                  //颜色渐变
+                  if(mygradient==1){
+                    var gradient=canvas.getContext('2d').createLinearGradient(0,0,170,0);
+                    gradient.addColorStop(0,background);
+                    gradient.addColorStop(0.5,background2);
+                    gradient.addColorStop(0,background);
+                    context.fillStyle = qr.isDark(row, col)?gradient:foreground;
+                  }else{
+                    context.fillStyle=qr.isDark(row, col) ? background : foreground;
+                  }
                 }
+                context.fillRect(Math.round(col * tile),
+                                 Math.round(row * tile), w, h);
               }
-              context.fillRect(Math.round(col * tile),
-                               Math.round(row * tile), w, h);
             }
           }
+          
         };
 
     return {
       restrict: 'E',
-      template: '<img ng-if="image" src="{{image}}" style="position: absolute;width: 20px; height: 20px;z-index:101;margin-left: 3.8rem;margin-top: 4rem;" /><canvas class="qrcode"></canvas>',
+      template: '<img ng-if="image" src="{{image}}" style="position: absolute;width: 30px; height: 30px;z-index:101;margin-left: 5.3rem;margin-top: 5.8rem;" /><canvas class="qrcode"></canvas>',
       scope: {  
                 image: '='  
             },  
@@ -73,6 +85,7 @@ angular.module('monospaced.qrcode', [])
             background,
             foreground,
             mygradient,
+            background2,
             setVersion = function(value) {
               version = Math.max(1, Math.min(parseInt(value, 10), 40)) || 5;
             },
@@ -106,12 +119,7 @@ angular.module('monospaced.qrcode', [])
               tile = size / modules;
               canvas.width = canvas.height = size;
             },
-            setBackground = function(value) {
-             
-            },
-            setForeground = function(value) {
-              
-            },
+           
             render = function() {
               if (!qr) {
                 return;
@@ -138,7 +146,7 @@ angular.module('monospaced.qrcode', [])
               }
 
               if (canvas2D) {
-                draw(context, qr, modules, tile,background,foreground,imgurl,mygradient,canvas);
+                draw(context, qr, modules, tile,background,foreground,imgurl,mygradient,canvas,background2);
 
                 if (download) {
                   domElement.href = canvas.toDataURL('image/png');
@@ -227,6 +235,17 @@ angular.module('monospaced.qrcode', [])
           }
 
           background = value;
+
+          render();
+        });
+
+        attrs.$observe('background2', function(value) {
+          if (!value) {
+            background2="#fff";
+            render();
+          }
+
+          background2 = value;
 
           render();
         });
