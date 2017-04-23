@@ -13,9 +13,9 @@ define(["cardMod"], function(module){
  /* 生成二维码*/
    module.controller('createCtrl',
   	['$scope','$state','md5','$stateParams','$window',
-  	'globalContants','$timeout','RPCService', 'PullToRefreshService', 'RPCService','cardService',
+  	'globalContants','$timeout','RPCService', 'PullToRefreshService', 'RPCService','cardService','Upload',
   	function($scope,$state,md5,$stateParams,
-  		$window,globalContants,$timeout,RPCService, PullToRefreshService,RPCService,cardService){
+  		$window,globalContants,$timeout,RPCService, PullToRefreshService,RPCService,cardService,Upload){
         /*基础参数*/
       	$scope.text = $stateParams.text?$stateParams.text:'nihao';
         $scope.mygradient =0;//颜色渐变控制
@@ -54,8 +54,43 @@ define(["cardMod"], function(module){
           }else if (e==1){
             $scope.image = "../img/qq.png";//logo控制
           }
-          
         }
+       
+        
+        $scope.thumb="";
+        //自定义上传logo
+        $scope.up = function(file){
+          if(!file ){
+            return;
+          }
+          $scope.upload(file);
+        }
+       $scope.upload = function (file) {
+        $scope.reader = new FileReader(); 
+        $scope.reader.readAsDataURL(file[0]);
+        $scope.reader.onload = function(ev) {
+            $scope.$apply(function(){
+                $scope.thumb = ev.target.result; //接收base64
+            });
+        }    
+       
+        $scope.fileInfo = file;
+        Upload.upload({
+            //服务端接收
+            url: 'https://angular-file-upload-cors-srv.appspot.com/upload',
+            //上传的同时带的参数
+            data: {'username': $scope.username},
+            //上传的文件
+            file: file
+        }).success(function (data, status, headers, config) {
+            //上传成功
+            console.log( config)
+           
+        }).error(function (data, status, headers, config) {
+            //上传失败
+            console.log('error status: ' + status);
+        });
+      };
        
     }
  ])
