@@ -44,7 +44,6 @@ define(["cardMod"], function(module){
           $scope.foreground = foreground?foreground:"#fff";
           $scope.background =background?background:"#000";
           $scope.background2 =background2?background2:"#000";
-          console.log($scope.imgUrl)
         }
         //logo 选择
         $scope.changeLogo = function(e){
@@ -58,38 +57,28 @@ define(["cardMod"], function(module){
        
         
         $scope.thumb="";
-        //自定义上传logo
-        $scope.up = function(file){
+        //自定义上传logo,选择图片
+        $scope.up = function(file,num){
           if(!file ){
             return;
           }
-          $scope.upload(file);
+          $scope.upload(file,num);
         }
-       $scope.upload = function (file) {
+        //上传图片
+       $scope.upload = function (file,num) {
         $scope.reader = new FileReader(); 
         $scope.reader.readAsDataURL(file[0]);
         $scope.reader.onload = function(ev) {
             $scope.$apply(function(){
-                $scope.thumb = ev.target.result; //接收base64
+                if(num==0){
+                  $scope.imgUrl = ev.target.result; //接收base64
+                  $scope.selectStyle = -1;
+                }else if(num==1){
+                  $scope.image=ev.target.result;
+                }
+                
             });
         }    
-       
-        $scope.fileInfo = file;
-        Upload.upload({
-            //服务端接收
-            url: 'https://angular-file-upload-cors-srv.appspot.com/upload',
-            //上传的同时带的参数
-            data: {'username': $scope.username},
-            //上传的文件
-            file: file
-        }).success(function (data, status, headers, config) {
-            //上传成功
-            console.log( config)
-           
-        }).error(function (data, status, headers, config) {
-            //上传失败
-            console.log('error status: ' + status);
-        });
       };
        
     }

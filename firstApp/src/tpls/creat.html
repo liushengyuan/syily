@@ -34,7 +34,7 @@
       <li ng-click="conChange(0,fasle,fasle,fasle,'../img/t4.png')"><span>七彩</span></li>
       <li ng-click="conChange(0,fasle,fasle,fasle,'../img/timg.png')"><span>狗狗</span></li>
       <li ng-click="conChange(0,fasle,fasle,fasle,'../img/t2.png')"><span>炫彩</span></li>
-      <li ><span>自定义</span></li>
+      <li ><span class="file">自定义<input type="file" id="one-input" accept="image/*" file-model="images" onchange="angular.element(this).scope().up(this.files,0)"/></span></li>
   </ul>
 </div>
 
@@ -49,14 +49,9 @@
   <ul>
       <li ng-click="changeLogo(0)"><span>微信</span></li>
       <li ng-click="changeLogo(1)"><span>QQ</span></li>
-      <li><span>自定义</span></li>
+      <li><span class="file">自定义<input type="file" id="one-input" accept="image/*" file-model="images" onchange="angular.element(this).scope().up(this.files,1)"/></span></li>
   </ul>
 </div>
 <div class="module" ng-hide="selectStyle==-1" ng-click="selectStyle=-1"> 
 </div>
- <!-- div  type="file" ngf-select ng-model="file" name="file" ngf-pattern="'image/*" accept="image/*">Select</div> -->
- <!-- 上传图片 -->
-  <!-- <input type="file" id="one-input" accept="image/*" file-model="images" onchange="angular.element(this).scope().up(this.files)"/> -->
-<!-- //显示图片 -->
- <!-- <div><img ng-src="{{thumb}}" class="img-responsive" />sss</div> -->
  
