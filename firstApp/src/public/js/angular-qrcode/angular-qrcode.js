@@ -51,6 +51,10 @@ angular.module('monospaced.qrcode', [])
                 }
                 context.fillRect(Math.round(col * tile),
                                  Math.round(row * tile), w, h);
+                // context.flush();
+                // File f = new File("E:\\QRCodeTest\\a.jpg");  
+                // if(!f.exists()) f.createNewFile();  
+                // ImageIO.write(bi, "jpg", f);
               }
             }
           }

@@ -17,7 +17,8 @@ define(["cardMod"], function(module){
   	function($scope,$state,md5,$stateParams,
   		$window,globalContants,$timeout,RPCService, PullToRefreshService,RPCService,cardService,Upload){
         /*基础参数*/
-      	$scope.text = $stateParams.text?$stateParams.text:'nihao';
+        var text =utf16to8($stateParams.text);
+      	$scope.text = text?text:'nihao';
         $scope.mygradient =0;//颜色渐变控制
         $scope.imgUrl = "";//图片背景控制
         $scope.image = "";//logo控制
@@ -25,6 +26,26 @@ define(["cardMod"], function(module){
         $scope.background ="#000";//背景色控制
         $scope.background2 ="#000";
         $scope.selectStyle = -1;
+        //utf-8转中文
+        function utf16to8(str) {  
+            var out, i, len, c;  
+            out = "";  
+            len = str.length;  
+            for(i = 0; i < len; i++) {  
+            c = str.charCodeAt(i);  
+            if ((c >= 0x0001) && (c <= 0x007F)) {  
+                out += str.charAt(i);  
+            } else if (c > 0x07FF) {  
+                out += String.fromCharCode(0xE0 | ((c >> 12) & 0x0F));  
+                out += String.fromCharCode(0x80 | ((c >>  6) & 0x3F));  
+                out += String.fromCharCode(0x80 | ((c >>  0) & 0x3F));  
+            } else {  
+                out += String.fromCharCode(0xC0 | ((c >>  6) & 0x1F));  
+                out += String.fromCharCode(0x80 | ((c >>  0) & 0x3F));  
+            }  
+            }  
+            return out;  
+        }   
         //点击logo 正常 等选项
         $scope.change =function(e,f){
           $scope.selectStyle = e;
@@ -54,9 +75,6 @@ define(["cardMod"], function(module){
             $scope.image = "../img/qq.png";//logo控制
           }
         }
-       
-        
-        $scope.thumb="";
         //自定义上传logo,选择图片
         $scope.up = function(file,num){
           if(!file ){
